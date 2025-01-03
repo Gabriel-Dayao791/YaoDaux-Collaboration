@@ -1,0 +1,2376 @@
+label splashscreen:
+    
+    scene bg black
+    with Pause(2)
+
+    show team_name with dissolve
+    with Pause(4)
+
+    show trigger_warning_1 with dissolve
+    with Pause(10)
+
+    show trigger_warning_2 with dissolve
+    with Pause(4)
+
+    show trigger_warning_3 with dissolve
+    with Pause(4)
+
+    scene bg black with dissolve
+    with Pause(6)
+
+    return
+    
+
+define a = Character("Chrystian")
+define b = Character("Willow")
+define c = Character("Mark")
+define d = Character("Gabriel")
+define e = Character("Carlo")
+define f = Character("Iñigo")
+define g = Character("Mrs. Flores")
+define h = Character("Mr. Flores")
+define i = Character("Chrystian's Brother")
+define j = Character("Professor")
+define k = Character("???")
+
+
+label start:
+
+    scene bg black
+    with Pause(3)
+
+    show tutorial with dissolve
+    with Pause(5)
+
+    scene bg black
+    with fade
+    with Pause(2)
+
+    show text "{i}Loading...{/i}":
+        xpos 1700
+        ypos 900
+    with Pause(10)
+    with dissolve
+
+    play music "audio/chapter_1.mp3" volume 0.3 fadeout 0.2 noloop
+    show chapter1
+    with dissolve
+    with Pause(3)
+    stop music
+
+    scene bg messy room
+    with fade
+    
+    play sound "audio/early_morning_urban.mp3" volume 0.3 loop
+
+    play music "audio/alarm_clock.mp3" volume 0.1 fadein 0.5 fadeout 0.3 noloop
+
+    "{i}CHRYSTIAN, 21, a young man who is sleeping inside a messy room.{/i}"
+
+    stop music
+
+    "{i}As he suddenly woke up due to the sun’s ray hitting his face,{/i}"
+
+    "{i}he moved his hands to cover his face as he looked at the time.{/i}"
+    
+    show cneutral with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "God, what time is it already?"
+
+    hide cneutral with dissolve
+   
+
+    "{i}As he sat on the bed to look at the time, he found out that it was still 7 A.M in the morning.{/i}" 
+
+    "{i}Getting out of his groggy state, he looked back to the other person beside him.{/i}" 
+    
+    show cneutral with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "Willow… Willow, wake up. We still have to go out later."
+    a "Didn’t we talk about going to Baguio around this time?"
+
+    hide cneutral with dissolve
+
+    "{i}And there, he saw him smile. The smile that always manages to cheer him up every single day.{/i}"
+
+    "{i}No matter how tired he may be.{/i}"
+    
+    stop sound fadeout 1.0
+
+    scene bg black
+    with fade
+    with Pause(2)
+
+    scene bg black
+    with fade
+    with Pause(2)
+
+    scene bg kitchen
+    with fade
+
+    play sound "audio/cooking_pot.mp3" volume 0.3 fadein 0.3 loop
+    show chappy2 with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "Willow, are you having fun?"
+    a "I'm really looking forward to our trip to Baguio this time."
+    a "Though I guess it is time to add more since our bucket list is getting shorter and shorter, Haha."
+
+    hide chappy2 with dissolve
+
+    "{i}Willow never answered but as he glanced back, he saw that he was still staring at him with a smile on his face.{/i}"
+
+    stop sound fadeout 1.0
+
+    "{i}As Chrystian turned off the induction cooker, he took a few steps and arrived before him as he gave him a peck.{/i}"
+
+    show chappy2 with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "I love you…"
+
+    hide chappy2 with dissolve
+
+    "{i}Although he never got an answer and Willow just hugged him… it was enough to make him happy for a full day.{/i}"
+
+    show cworried with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "Please… Can you please not… *sigh* nevermind."
+
+    hide cworried with dissolve
+
+    scene bg black
+    with fade
+    with Pause(3)
+
+    scene bg messy room
+    with fade
+
+    play sound "audio/clothes_pack.mp3" volume 0.2 fadeout 0.5 noloop
+
+    "{i}After Chrystian finished eating, he went back to his room to clean up before starting to pack his things.{/i}"
+
+    stop sound fadeout 1.0
+
+    "{i}After all, he felt that it would just make his head hurt trying to find something when the room is this extremely messy.{/i}"
+
+    show csurprised with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "This is… So it’s still here…"
+
+    hide csurprised with dissolve
+
+    "{i}A smile worked its way on Chrystian’s face as he gazed at a Teddy bear, a picture frame with both of them in it, and an engagement ring.{/i}"
+
+    menu:
+        "Teddy Bear":
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I remember this… "
+            a "You had quite a hard time getting this teddy bear on that claw machine."
+
+            hide chappy1 with dissolve
+
+            "{i}And then as he remembered that day, it felt like he experienced what he felt during that day all over again.{/i}"
+
+            scene bg black
+            with Pause(3)
+
+            scene bg arcade
+            with fade
+
+            play sound "audio/ambiance.mp3" volume 0.1 fadein 0.2 fadeout 0.5 noloop
+
+            "{i}Chrystian and Willow were wandering around the mall when they saw an arcade up ahead.{/i}"
+
+            "{i}Willow, upon seeing it excitedly pulled Chrystian as they practically ran towards it.{/i}"
+            
+            stop sound fadeout 1.0
+            
+            show whappy1 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Wow, the arcade here sure is really amazing. Look, they even have billiards and archery."
+
+            hide whappy1 with dissolve
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Yeah, It’s my first time seeing this here so I guess it’s newly opened?"
+
+            hide cneutral with dissolve
+
+            show whappy1 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Anyways, what do you think we should try?"
+
+            hide whappy1 with dissolve
+
+            menu:
+                "Claw Machine":
+
+                    scene bg black
+                    with Pause(2)
+
+                    scene bg claw machine
+                    with fade
+
+                    "{i}Willow and Chrystian were in front of a claw machine when Willow suddenly told him to let him try since he wanted to give something to him.{/i}"
+
+                    show whappy3 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "So, which teddy bear do you want Chrys? I swear I’ll try my best to catch it!"
+
+                    hide whappy3 with dissolve
+
+                    show chappy2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "I’m okay with whatever you catch in there. After all, my dear Willow is going to give it to me."
+
+                    hide chappy2 with dissolve
+
+                    "{i}Willow entered the token to the machine and he started to move the joystick in serious concentration as he stared at the claw… trying to line it up to the plushie beneath it.{/i}"
+
+                    "{i}When he tapped the push button, he stared at the claw with anticipation as it slowly went down, only to miss the target.{/i}"
+
+                    show cworried with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "It’s fine Willow. It’s your first time after all."
+
+                    hide cworried
+
+                    show chappy2:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Anyway, even if you can’t catch one, we can still play the others."
+
+                    hide chappy2 with dissolve
+
+                    show wangry with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Now that you said that, you just ignited my fighting spirit okay?"
+
+                    b" I won’t stop here until I get you one of these teddy bears!"
+
+                    hide wangry with dissolve
+
+                    "{i}And then Willow repeated it again until he also failed this time.{/i}"
+
+                    show wangry with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "AGAIN!"
+
+                    hide wangry with dissolve
+
+                    "{i}With Willow’s 3rd attempt, he was doing it with great concentration while Chrystian assisted him on the side.{/i}"
+
+                    "{i}As the claw slowly went down, Chrystian already gave him a token just in case they failed this time too...{/i}"
+
+                    "{i}But much to their surprise, the claw actually got the plushie they’ve been aiming for.{/i}"
+                    show whappy3 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Chrys! See! I told you that I could do it!"
+
+                    hide whappy3 with dissolve
+
+                    show chappy1 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    play sound "audio/laughing.mp3" volume 0.3 fadein 0.2 noloop
+                    a "Yeah, I thought we were about to try again HAHAHA"
+
+                    stop sound
+
+                    hide chappy1 with dissolve
+
+                    show whappy1 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Hmp, anyways, this is for you."
+
+                    hide whappy1 with dissolve
+
+                    show chappy2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Thank you. I’ll name it little Willow then."
+
+                    hide chappy2 with dissolve
+
+                "Mario Kart":
+
+                    scene bg black
+                    with Pause(2)
+
+                    scene bg mario kart
+                    with fade
+
+                    "{i}Chrystian and Willow settled down in the arcade booth, their backs leaned into the chair.{/i}"
+
+                    "{i}As the game boots up, the cheerful intro sounded out as they started the game.{/i}"
+
+                    "{i}When the character selection screen pops up, Chrystian had chosen Luigi while Willow chose Rosalina.{/i}"
+
+                    show whappy3 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Chrys! Why can’t you catch up? If you go on like that then I’ll be taking the finish line!"
+
+                    hide whappy3 with dissolve
+
+                    show cangry with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "If you stopped throwing things my way then I can definitely catch up."
+
+                    hide cangry with dissolve
+
+                    show whappy3 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "HAHAHA it’s not my fault that you suck at avoiding them."
+
+                    hide whappy3 with dissolve
+
+                    "{i}Chrystian had finally catched up just when they were about to cross the finish line when Willow hurled a bob-omb right at him.{/i}"
+
+                    "{i}As his kart got hit, Willow flew across the finish line as he laughed at him.{/i}"
+
+                    show cangry with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Willow, you just didn’t!"
+
+                    hide cangry with dissolve
+                    
+                    show whappy3 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "HAHAHAHAHA, Chrys, I’m sorry but HAHAHA"
+
+                    hide whappy3 with dissolve
+
+                    show chappy1 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Okay, okay. Let’s have a rematch. I’m just going easy on you last time."
+
+                    hide chappy1 with dissolve
+
+                    show whappy2 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Oh? That’s some bold words for someone who’s about to lose… again."
+
+                    hide whappy2 with dissolve
+
+                "House of the Dead":
+
+                    scene bg black
+                    with Pause(2)
+
+                    scene bg house of the dead
+                    with fade
+
+                    "{i}Laughter can be heard from one of the arcade booths as Chrystian and Willow restarted the game.{/i}"
+                    
+                    show whappy1 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "You should start taking this more seriously Mr. Castro, least you say that you’re going easy on me again."
+
+                    hide whappy1 with dissolve
+
+                    show chappy1 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Heh, bring it on."
+
+                    hide chappy1 with dissolve
+
+                    "{i}The game began as the first wave of zombies tottered towards them to which Willow unleashed a barrage of bullets.{/i}" 
+            
+                    "{i}Although Chrystian struggled to keep up, his fingers fumbling on the buttons.{/i}"
+
+                    show whappy2 with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Chrys, you’re going to die at that rate you know."
+
+                    hide whappy2 with dissolve
+
+                    show cangry with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Well, it’s you who's going to die if you keep focusing on me."
+
+                    hide cangry with dissolve
+
+                    "{i}In the end, it was Willow who won and took down the final boss, leaving him with bragging rights over Chrystian.{/i}"
+            
+                    "{i}Teasing him again and again until he was satisfied.{/i}"
+
+        "Picture Frame":
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I remember this…"
+
+            a "It was our first anniversary and you were so happy that you couldn’t stop talking about it for weeks."
+
+            hide chappy1 with dissolve
+
+            "{i}And then as he remembered that day,{/i}"
+
+            "{i}it felt like he experienced what he felt during that day all over again.{/i}"
+
+            scene bg black
+            with Pause(3)
+
+            scene bg car
+            with fade
+
+            play sound "audio/car_driving.mp3" volume 0.3 fadein 0.2 loop
+                
+            "{i}Inside the car, Chrystian is asking Willow to pick which restaurant he would want to spend their night together as he listed three choices based on his preferences.{/i}"
+
+            "{i}Hearing him say that, Willow then decided to check the reviews first before making his decision.{/i}"
+
+            "{i}In the end he chose… AMBOS{/i}"
+
+            stop sound
+
+            scene bg black
+            with Pause(3)
+
+            scene bg ambos
+            with fade
+
+            play music "audio/restaurant_ambiance.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+
+            "{i}Chrystian and Willow walked into the cafe hand-in-hand as Chrystian reported his name and went into their reserve seats, with the waiter already handing them the menu before leaving.{/i}"
+
+            show wsurprised with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys, how did you find this place? It’s so pretty and the ambience is pretty good too."
+
+            hide wsurprised with dissolve
+
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I wanted our first anniversary to be special"
+
+            a "so I took the time to research some of the recommended resto here before choosing one based on what you would like best."
+
+            hide chappy1 with dissolve
+
+            show wworried with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Oh… Thank you Chrys, I know you were usually busy with your work."
+
+            b "I hope it didn’t disturbed you."
+
+            hide wworried with dissolve
+
+            show chappy2 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "It’s fine. Now, what would you like to eat?"
+
+            play sound "audio/paper_flip.mp3" volume 0.3 fadein 0.2 noloop
+
+            a "I heard that they served pretty good food here."
+
+            stop sound fadeout 3.5
+
+            hide chappy2 with dissolve
+
+            menu:
+                "Cheesy Sausage, New York Style Pizza, Salmon Teriyaki, Creamy Chicken Pesto, Strawberry Peach Tea, and Banana Pana Cotta":
+                    show chappy2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Sure!"
+
+                    hide chappy2 with dissolve
+
+                "Ham & Cheese, Hawaiian Pizza, Salt & Pepper Ribs, Aglio Olio, Blue Laguna, and Mango Tapioca":
+                    show chappy2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Sure!"
+
+                    hide chappy2 with dissolve
+
+                "Creamy Spinach, Margherita Pizza, Camaron Rebusado, Baked Macaroni, Strawberry Lemonade, and Banana Pana Cotta":
+                    show chappy2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Sure!"
+
+                    hide chappy2 with dissolve
+
+            "{i}After they said their order, Chrystian and Willow talked about trivial things as they started to catch up on what each of them were doing as the other was working while the latter was still studying.{/i}"
+            
+            show chappy2 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "One year…"
+
+            hide chappy2 with dissolve
+
+            show whappy2 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Hmm… one year."
+
+            hide whappy2 with dissolve
+
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Do you still remember the first time you brought me into a cafe?"
+
+            hide chappy1 with dissolve
+
+            show whappy2 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Yeah, you said that you haven’t gone into one since you can order them online anyways."
+
+            hide whappy2 with dissolve
+
+            show chappy2 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I’m really surprised back then since you dragged me there the second I left the office."
+
+            a "That was the first time I’ve seen you so stubborn about something."
+
+            hide chappy2 with dissolve
+    
+
+            show whappy3 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "And you still loved it."
+            
+            b " From the pastry to the coffee, who didn’t pester me to keep coming back there after?"
+
+            hide whappy3 with dissolve
+
+            "{i}The afternoon sun began to set as their order arrived one by one, the soft glow of light illuminated their faces as they spent the rest of the time talking and teasing each other as they mimicked a critic, rating the food one by one.{/i}"
+            
+            stop music fadeout 1.0
+
+        "Engagement Ring":
+
+            show chappy2 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I remember this…"
+
+            a "It was the happiest day of my life after all."
+
+            hide chappy2 with dissolve
+
+            "{i}And then as he remembered that day, it felt like he experienced what he felt during that day all over again.{/i}"
+
+            "{i}Chrystian and Willow have been together for five years and a proposal is constantly brewing in his mind.{/i}"
+
+            "{i}There was no doubt about him wanting to spend the rest of his life together with Willow.{/i}"
+
+            "{i}The only question is whose help is he going to require to prepare for the impending proposal.{/i}"
+
+            menu:
+
+                "Friend’s Help":
+
+                    scene bg black
+                    with Pause(1)
+
+                    scene bg balcony marriage
+                    with fade
+                    
+                    "{i}At a terrace decorated romantically, a young man is constantly pacing back and forth, apparently nervous about what was about to come.{/i}"
+
+                    play sound "audio/footsteps_wooden.mp3" volume 0.3 fadein 0.2 loop
+
+                    "{i}That young man is, of course, Chrystian.{/i}"
+
+                    stop sound fadeout 5.0
+
+                    c "Chrys, breathe. We can’t have you looking so rattled right from the get-go."
+
+                    show cworried with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "I don’t know man… It just doesn’t feel romantic enough. What if Willow doesn’t agree?"
+
+                    hide cworried with dissolve
+
+                    "{i}As they were talking, their other friends continued to strung the lights around the patio, with some arranging the candles and flowers on the tables.{/i}"
+
+                    d "Chrys, it’s perfect. And why are you even thinking about negative things like that?"
+
+                    d "Right now, you should be composing yourself as you’re about to pull off the most romantic proposal of all time."
+
+                    e "Yeah, you’ve got this Chrys! Now, go and get your man."
+
+                    f "Everyone, get into hiding! Willow is already nearby!"
+
+                    "{i}Chrystian was grateful and it helped ease some of the nervousness he felt earlier. He slowly closed his eyes and took a deep breath before heading out to meet Willow.{/i}"
+
+
+                "Family’s Help":
+
+                    scene bg black
+                    with Pause(1)
+
+                    scene bg living room marriage
+                    with fade
+
+                    play sound "audio/people_talking.mp3" volume 0.3 fadein 0.2 loop
+
+                    "{i}At a certain house in BL Pineville in Baguio, the air was filled with a mixture of excitement and nervous energy as Chrystian, surrounded by a few of his and Willow’s family, decorated the living room for a surprise proposal.{/i}"
+
+                    g "Chrystian, darling, don’t you think something is missing? Should we add more candles? or flowers perhaps?"
+
+                    h "Don’t forget the music, Chrystian. A little bit of romantic music always sets the mood."
+
+                    i "This is going to be lit, Chrys! It’ll certainly be a proposal that Willow will never forget!"
+
+                    "{i}With various voices talking over each other, Chrystian is starting to get a little bit overwhelmed by their enthusiasm.{/i}"
+
+                    show cworried with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Guys, I think you’re going a bit overboard. This is supposed to be a romantic proposal… not a full blown stage production."
+
+                    hide cworried with dissolve
+
+                    "{i}However, everyone collectively ignored him as they continued to decorate.{/i}"
+
+                    "{i}Chrystian, seeing that no one listened to him, could only help put some of the decorations back in the box.{/i}"
+
+                    "{i}Before long, they finished decorating the place as both of their family members started to hide as Willow was already nearby.{/i}"
+
+                    stop sound fadeout 1.0
+                    
+                "No one":
+
+                    scene bg black
+                    with Pause(1)
+
+                    scene bg park marriage
+                    with fade
+
+                    "{i}At a secluded garden near session road, Chrystian was like a headless fly as he scrambled to put the lights in their places.{/i}"
+
+                    "{i}Looking back at the hastily decorated garden, Chrystian looked downcast as it never reached his expectations.{/i}"
+
+                    play sound "audio/male_sigh.mp3" volume 0.2 fadein 0.2 noloop
+                    show csad with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "This is a disaster…"
+
+                    stop sound
+
+                    show cworried with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "Talk about a romantic proposal… "
+
+                    hide csad with dissolve
+                    hide cworried with dissolve
+
+                    "{i}He turned around to look at what he did. It wasn't as romantic as he expected it to be, but he put his whole heart and effort into decorating this place.{/i}"
+
+                    show cworried with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    a "{i}Okay, Chrys. You can do this. You've practiced in front of the mirror for hours just for this one moment.{/i}"
+
+                    hide cworried with dissolve
+
+                    "{i}As the person he asked to be on the lookout said that Willow is nearby, Chrystian took a deep breath, readying himself for one of the most important moment of his life.{/i}"
+
+
+    scene bg black
+    with fade
+    with Pause(3)
+
+    scene bg messy room
+    with fade
+
+    "{i}As Chrystian remembered those memories, he couldn’t help but smile while also crying.{/i}"
+
+    "{i}Who would have imagined?{/i}"
+
+    "{i}That the memories who made him smile before as he remembered it would be the one who would also make him cry today.{/i}"
+
+    show csad with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "Willow, you're happy, right? For all the time we had together... I made you happy, right?"
+
+    hide csad with dissolve
+    
+    scene black with dissolve
+    with Pause(1)
+
+    show text "{i}Loading...{/i}":
+        xpos 1700
+        ypos 900
+    with Pause(10)
+    with dissolve
+
+    scene bg black
+    show text "{i}CHAPTER 2: Anger{/i}" with dissolve
+    with Pause(4)
+
+    scene bg messy room2
+    with fade
+
+    "{i}As Chrystian sat on the bed, he ran a hand through his hair as glanced at their room, before settling again at those three keepsakes before picking the teddy bear again.{/i}"
+
+    show csad with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "It’s been three months…"
+
+    a "Willow, you’re happy right? For all the time we had together… I made you happy right?"
+
+    a "Why aren’t you answering? It’s my fault again this time right?! After all, I’m always in the wrong!"
+
+    hide csad with dissolve
+
+    "{i}Chrystian throws the teddy bear across the room, the impact against the wall produces a jarring sound that breaks the silence.{/i}"
+
+    show csad with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    a "Why did you have to break up with me?! Why do you want to leave me?!"
+
+    hide csad with dissolve
+
+    "{i}Chrystian stood up, pacing around the room as he tried to control the anger building inside him like a storm. In his irritation, he kicked over a chair which toppled over with a resounding sound.{/i}"
+
+    "{i}Which gradually turned to him throwing and smashing everything that his eyes could see… but his movements halted when he saw several tattered items on the ground.{/i}"
+
+    "{i}It was an item that he remembered vividly… After all, it directly reminded him of ‘that’ day.{/i}"
+
+    menu:
+        "Theme Park Ticket":
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Why is this still here?"
+
+            hide csad with dissolve
+
+            "{i}Chrystian looked at the theme park ticket with hatred. It was the beginning of a worst and painful day that still tormented him until this day after all.{/i}"
+
+            scene black with dissolve
+            with Pause(3)
+
+            scene bg theme park
+            with fade
+
+            "{i}Chrystian and Willow stood in line as they slowly approached the entrance and had their tickets checked. It didn’t take long before they got in as they slowly made their way to the rides.{/i}"
+
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "So what do you want to ride first, Willow? Should we start at the extreme rides first or the mild ones?"
+
+            show whappy2 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Oh, uh… let’s start with the extreme rides first while it’s still early."
+
+            hide chappy1 with dissolve
+
+            hide whappy2 with dissolve
+
+            "{i}Chrystian frowned slightly as he watched Willow absentmindedly replying to him. He tries to catch his eyes, but he is completely engrossed in his phone, his fingers tapping furiously on the screen.{/i}"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "So, how is everything at your school?"
+
+            show wneutral with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Everything was fine. Although we’re getting more and more activities we had to pass."
+            
+            hide cneutral with dissolve
+
+            hide wneutral with dissolve
+
+            "{i}Chrystian tried his best to keep his temper in check… but it wasn’t that successful since Willow seems more interested in whoever he is texting.{/i}"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, are you even paying attention?"
+
+            "{i}When Willow heard that, he suddenly looked up, only to see Chrystian’s scrunched up face.{/i}"
+
+            show wneutral with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "What? Oh, sorry. I was just…"
+
+            a "Who were you texting?"
+
+            b "Chrys, are we seriously gonna start arguing here?"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I just... I thought we were supposed to be enjoying this together."
+
+            a "Yet there you are! So busy typing on your phone that you couldn’t be bothered to talk with me."
+
+            b "Chrys, it’s just a friend… It’s just that we’re talking about something important."
+
+            a "A friend?"
+
+            a " What important thing are you two even talking about to make you pay more attention to your phone when I’m the one here with you?!"
+
+            b "Chrystian, can you please stop?! Like I said, it’s just a friend."
+
+            b "Do you really need to overreact like this?"
+
+            a "Because it seems like you wanna be with whoever is your ‘friend’ rather than spending time with me!"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Look, Chrys. I’m sorry, okay? I’m really really sorry."
+
+            b "I didn’t mean to ignore your feelings like this… can we please, put this behind and just enjoy the rest of the day together?"
+
+            hide cneutral with dissolve
+            hide csad with dissolve
+
+            hide wneutral with dissolve
+            hide wsad with dissolve
+
+            "{i}Chrystian looked at Willow for a little longer as he tried to calm himself down.{/i}"
+
+            "{i}Trying to remind himself that there are only limited days when both of them are free so he really treasures the days when the both of them could spend time together.{/i}"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I’m sorry too… it’s just that, we only have a limited time to spend some time together before the both of us become busy again."
+
+            show whappy2 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "I know… Now then, should we try going to the roller coaster first?"
+
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Heh… don’t blame me if you started vomiting later."
+
+            hide cneutral with dissolve
+            hide chappy1 with dissolve
+            
+            
+            hide whappy2 with dissolve
+
+            "{i}Looking at Chrystian who finally calmed down, a smile appeared on Willow’s face as he started teasing him again while they walked hand-in-hand to the queue on the Roller Coaster.{/i}"
+
+            scene bg black
+            with fade
+            with Pause(3)
+
+            scene bg car exterior
+            with fade
+
+            "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship…{/i}"
+
+            "{i}Willow kept thinking before he slowly closed his eyes as he finally made his decision.{/i}"
+
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys… Let’s break up."
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "What do you mean? You’re not serious right?"
+
+            b "I'm so sorry, Chrys."
+
+            a "Is it because of him? You’re throwing me away because of him?!"
+
+            b "Chrys, I told you already! It wasn't like that! He’s my groupmate for f*cks sake!"
+
+            a "Do you think I’ll believe that?! Then what are those messages then? Willow, I’m not blind!"
+
+            b "Chrys, don’t jump into conclusions when you haven’t even read the whole thing! Jake just wanted-"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "So, I’m wrong now ain't I? I’m always in the wrong, right? and you’re always right. That’s how it has always been!"
+
+            b "Chrystian, please, just listen to me!"
+
+            a "Listen? I'm listening! I'm listening to your excuses!"
+
+            b "I'm not lying! I'm just... I'm just tired…"
+
+            hide cneutral with dissolve
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}Chrystian was at a loss for words when he saw that Willow started crying. Sometimes, he felt like Willow is just using this because he knew how much he hates seeing him cry…{/i}"
+
+            "{i}But, nonetheless, he really couldn’t bear seeing him cry because of him.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, please. Don’t cry… It’s my fault, okay?"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys… I’m tired of this. I’m tired of your constant jealousy. Can’t you just trust me?"
+
+            a "Willow…"
+
+            b "Maybe we should just... break up."
+
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}When Chrystian heard that, it felt like his heart also shattered. He turns to him, his eyes filled with disbelief. They’ve been in much worse fights like this before but this is the first time he heard Willow say those words.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "W-what?"
+    
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "I don't think this is working anymore."
+
+            a "So it's because of him? You're breaking up with me because of him?!"
+
+            b "Chrystian! How many times should I have to tell you that there’s nothing between us! It's not about him! It's about us! This… our relationship isn't working."
+
+            a "Then why?! Why are you throwing us away? We could still fix this! Do those years mean nothing to you?"
+
+            b "I'm not throwing anything away! I'm just trying to be honest with myself!"
+
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}As both of their voices rose in a heated argument, the both of them only noticed that a speeding truck was fastly approaching their car.{/i}"
+
+            show csurprised with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, look out!"
+
+            hide csurprised with dissolve
+
+            play sound "audio/car_crash.mp3" volume 0.3 fadein 0.2 noloop
+            "{i}The truck crashes into their car, sending it spinning out of control… and then the world goes black.{/i}"
+
+            stop sound
+
+            with dissolve
+            show text "{i}Loading...{/i}":
+                xpos 1700
+                ypos 900
+            with Pause(3)
+
+            scene bg messy room2
+            with fade
+
+            "{i}Seeing those items again after a long time shook him to the core.{/i}"
+
+            "{i}Although he was glad since he saw it again, it also brought back painful memories that made his wounds reopen again.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "It wasn’t fair! Do you still remember the promise we made together?"
+
+            a "We were supposed to grow old together, go to the places that we wanted to visit, and create a family."
+
+            "{i}He throws his hands up in frustration, his face contorted with pain as tears slowly fall from his eyes.{/i}"
+
+            a "And you want to… throw all of that away. I hate you… I hate you."
+
+            "{i}Chrystian choked as he collapsed into the fall, his head in his hands as he cried.{/i}"
+
+            a "Yet, I still love you… I love you so much."
+
+            hide csad with dissolve
+
+            "{i}Chrystian sat there for a long time as he breathed raggedly. The anger that he felt, although it was still present, has somehow diminished.{/i}"
+
+            "{i}It didn’t take long for him to calm himself down as he stood up and started to clean the messes that he made.{/i}"
+
+        "Restaurant Receipt":
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Why is this still here?"
+
+            "{i}Chrystian looked at the restaurant receipt with hatred. If only that person hadn’t chatted with Willow that day… then maybe everything wouldn’t have spiralled out of control.{/i}"
+
+            scene bg black
+            with fade
+            with Pause(2)
+
+            with dissolve
+            show text "{i}Loading...{/i}":
+                xpos 1700
+                ypos 900
+            with Pause(5)
+
+            scene bg restaurant theme park
+            with fade
+
+            "{i}Chrystian and Willow sat across from each other as they enjoyed their meal while chatting excitedly.{/i}"
+
+            show whappy2 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Do you remember that night when you suddenly approached me and asked if I wanted to go to prom with you?"
+
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Of course, that was one of the most memorable days of my life. It’s like a core memory now."
+
+            show whappy3 with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "It was for me too! But I just HAHAHA, why did you have to HAHAHAHA!"
+
+            show cangry with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow… Can you please forget that? It’s been so long ago…"
+
+            b "No way HAHAHAHA OH GOD! Who told you to make a fool out of yourself in front of everyone? In your dreams, Chrys."
+
+            hide whappy2 with dissolve
+            hide whappy3 with dissolve
+
+            hide chappy1 with dissolve
+            hide cangry with dissolve
+
+            "{i}Chrystian just looked at Willow with a smile on his face when he noticed that Willow’s phone suddenly lit up and it looked like someone sent him a message.{/i}"
+
+            show wneutral with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Oh, I need to use the restroom. Be right back. Don’t miss me so much, Chrys."
+
+            hide wneutral with dissolve
+
+            "{i}After Willow teased him, he stood up and headed towards the restroom, leaving his phone on the table. Chrystian glances at Willow’s phone, then looks back at his food… but his eyes keep drifting back to the phone.{/i}"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Just a quick glance. There’s nothing wrong with that."
+
+            hide cneutral with dissolve
+
+            "{i}After Chrystian convinces himself, he picks up Willow’s phone and unlocks it. He then went to the messages and saw a message from a guy he didn’t recognize.{/i}"
+
+            show cworried with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Whose this? I don’t remember Willow saying something about him…"
+
+            hide cworried with dissolve
+
+            "{i}As Chrystian scrolls through the messages, his face starts turning from curiosity to suspicion… to anger.{/i}"
+
+            "{i}He couldn’t believe what he was reading and as he scrolled up, he heard Willow’s voice.{/i}"
+
+            show wworried with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Sorry, it took a little longer— Chrys, what are you doing with my phone?"
+
+            show cworried with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Who’s this? Is he the one you kept texting with earlier?"
+
+            b "Yeah… but what about him?"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Hah… Willow, are you seriously playing dumb with me?! I’ve seen the messages you exchanged with him!"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys, calm down. What messages are you even talking about- oh."
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "So? Do you remember now? Willow, you better start explaining."
+
+            b "Chrys, I don’t know how far you’ve read but this isn’t what you’re thinking at all. That guy just wanted-"
+
+            a "What do you mean it’s not like what i’m thinking? Because based on those messages, I think you’re seeing someone else!"
+
+            b "Chrys, can you please calm down and listen to me first?!"
+
+            b "Do you want the whole restaurant to know our problems?!"
+
+            b "And how am I supposed to explain if you keep cutting me off?!"
+
+            hide wworried with dissolve
+            hide wsad with dissolve
+
+            hide cworried with dissolve
+            hide cneutral with dissolve
+            hide csad with dissolve
+            
+            "{i}Chrystian, who noticed that the other diners had started to look over them while talking to each other, suppressed the growing rage inside him as he knew that it wasn’t the place to talk.{/i}"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "We’ll talk later…  you better come up with an explanation on why you’re having those suggestive messages with that other person."
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "I just wanted to state here that it really wasn’t what you think. You’re free to read the rest of our message if that would put your mind at ease."
+
+            a "And what? So that I could see how you guys flirted with each other? Willow, I’m not a martyr."
+
+            hide cneutral with dissolve
+
+            hide wsad with dissolve
+
+            "{i}Willow looks at Chrystian exasperatedly as he didn’t know how he’ll make him listen to his explanation later. If he could read the rest of the messages then it would be easily resolved…{/i}"
+
+            "{i}but Chrystian is also someone that once he strongly believed in something, it wouldn’t be easy to make him change his mind.{/i}"
+            
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "I- God, Chrys, you’re driving me crazy"
+
+            b "Fine."
+            
+            b "Let’s talk later and I can explain until your mind can finally register that there is nothing going on between us!"
+
+            hide wsad with dissolve
+
+            scene bg black
+            with fade
+            with Pause(2)
+
+            scene bg car exterior
+            with fade
+
+            "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship…{/i}"
+
+            "{i}Willow kept thinking before he slowly closed his eyes as he finally made his decision.{/i}"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys… Let’s break up."
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "What do you mean? You’re not serious right?"
+
+            b "I'm so sorry, Chrys."
+
+            a "Is it because of him? You’re throwing me away because of him?!"
+
+            b "Chrys, I told you already! It wasn't like that! He’s my groupmate for f*cks sake!"
+
+            a "Do you think I’ll believe that?! Then what are those messages then? Willow, I’m not blind!"
+
+            b "Chrys, don’t jump into conclusions when you haven’t even read the whole thing! Jake just wanted-"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "So, I’m wrong now ain't I? I’m always in the wrong, right? and you’re always right. That’s how it has always been!"
+
+            b "Chrystian, please, just listen to me!"
+
+            a "Listen? I'm listening! I'm listening to your excuses!"
+
+            b "I'm not lying! I'm just... I'm just tired…"
+
+            hide cneutral with dissolve
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}Chrystian was at a loss for words when he saw that Willow started crying. Sometimes, he felt like Willow is just using this because he knew how much he hates seeing him cry…{/i}"
+
+            "{i}But, nonetheless, he really couldn’t bear seeing him cry because of him.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, please. Don’t cry… It’s my fault, okay?"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys… I’m tired of this. I’m tired of your constant jealousy. Can’t you just trust me?"
+
+            a "Willow…"
+
+            b "Maybe we should just... break up."
+
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}When Chrystian heard that, it felt like his heart also shattered. He turns to him, his eyes filled with disbelief. They’ve been in much worse fights like this before but this is the first time he heard Willow say those words.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "W-what?"
+    
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "I don't think this is working anymore."
+
+            a "So it's because of him? You're breaking up with me because of him?!"
+
+            b "Chrystian! How many times should I have to tell you that there’s nothing between us! It's not about him! It's about us! This… our relationship isn't working."
+
+            a "Then why?! Why are you throwing us away? We could still fix this! Do those years mean nothing to you?"
+
+            b "I'm not throwing anything away! I'm just trying to be honest with myself!"
+
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}As both of their voices rose in a heated argument, the both of them only noticed that a speeding truck was fastly approaching their car.{/i}"
+
+            show csurprised with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, look out!"
+
+            hide csurprised with dissolve
+
+            "{i}The truck crashes into their car, sending it spinning out of control… and then the world goes black.{/i}"
+
+            scene bg black
+            with fade
+            with Pause(2)
+
+            with dissolve
+            show text "{i}Loading...{/i}":
+                xpos 1700
+                ypos 900
+            with Pause(5)
+
+            scene bg messy room2
+            with fade
+
+            "{i}Seeing those items again after a long time shook him to the core.{/i}"
+
+            "{i}Although he was glad since he saw it again, it also brought back painful memories that made his wounds reopen again.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "It wasn’t fair! Do you still remember the promise we made together?"
+
+            a "We were supposed to grow old together, go to the places that we wanted to visit, and create a family."
+
+            "{i}He throws his hands up in frustration, his face contorted with pain as tears slowly fall from his eyes.{/i}"
+
+            a "And you want to… throw all of that away. I hate you… I hate you."
+
+            "{i}Chrystian choked as he collapsed into the fall, his head in his hands as he cried.{/i}"
+
+            a "Yet, I still love you… I love you so much."
+
+            hide csad with dissolve
+
+            "{i}Chrystian sat there for a long time as he breathed raggedly. The anger that he felt, although it was still present, has somehow diminished.{/i}"
+
+            "{i}It didn’t take long for him to calm himself down as he stood up and started to clean the messes that he made.{/i}"
+
+        "Parking Ticket":
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Why is this still here?"
+
+            "{i}Chrystian looked at the parking ticket with hatred. If only he controlled his temper instead of angering Willow further… then maybe ‘that’ wouldn’t happen.{/i}"
+
+            scene bg black
+            with fade
+            with Pause(2)
+
+            with dissolve
+            show text "{i}Loading...{/i}":
+                xpos 1700
+                ypos 900
+            with Pause(5)
+
+            scene bg parking ug
+            with fade
+
+            "{i}Chrystian and Willow were silent as they headed towards the parking lot, with both of them ignoring the other.{/i}"
+
+            "{i}Due to the disaster of a date it has been, Chrystian and Willow just wanna go home immediately.{/i}"
+
+            "{i}As soon as they entered the car, Chrystian was about to drive when Willow suddenly asked something.{/i}"
+
+            show wneutral with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Wait. Where’s the parking ticket? Knowing you, you probably misplaced it again."
+
+            show chappy1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Of course I placed it he—"
+
+            show csurprised with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "oh sh*t, where the hell is it?"
+
+            show wangry with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "See? If I hadn’t asked about it then maybe while we’re on our way out-"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, can you please for once, shut up and just help me find it?!"
+
+            hide wneutral with dissolve
+            hide wangry with dissolve
+
+            hide chappy1 with dissolve
+            hide csurprised with dissolve
+            hide cneutral with dissolve
+
+            "{i}Hearing the blame in Chrystian’s tone, Willow looked at him shockingly as Chrystian never raised his voice at him, even when he was feeling frustrated.{/i}"
+
+            show wneutral with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys, did you just raise your voice at me?"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "I… Willow—"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Why are you taking out your frustration on me?! I’m just trying to remind you nicely but you’re making it look like it’s my fault!"
+
+            a "Willow, you know why I’m being like this!"
+
+            b "I already told you that it wasn’t really what you think! You can check the rest of our conversation so you wouldn’t be throwing tantrums like this!"
+
+            hide wneutral with dissolve
+            hide wsad with dissolve
+
+            hide csad with dissolve
+
+            "{i}As Chrystian was trying to find the parking ticket, Willow beside him kept babbling, adding with how the rest of the date went which is that they always end up arguing...  it didn’t take long for Chrystian’s patience to wear out.{/i}"
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Can we just find the freaking parking ticket?!"
+
+            show chappy2 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Nevermind. I already found it."
+
+            show wneutral with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Oh, good. Now, we can finally leave this godforsaken place."
+
+            "{i}Chrystian just brushed Willow’s sarcastic remark, after all, he’s a master when it comes to pretending to be deaf when needed. As he finally drove towards the entrance of the parking lot to hand over the ticket to the security guard.{/i}"
+
+            hide cneutral with dissolve
+            hide chappy2 with dissolve
+            
+            hide wneutral with dissolve
+
+            scene bg black
+            with fade
+            with Pause(2)
+
+            with dissolve
+            show text "{i}Loading...{/i}":
+                xpos 1700
+                ypos 900
+            with Pause(5)
+
+            scene bg car exterior
+            with fade
+
+            "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship… Willow kept thinking before he slowly closed his eyes as he finally made his decision.{/i}"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys… Let’s break up."
+
+            show cneutral with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "What do you mean? You’re not serious right?"
+
+            b "I'm so sorry, Chrys."
+
+            a "Is it because of him? You’re throwing me away because of him?!"
+
+            b "Chrys, I told you already! It wasn't like that! He’s my groupmate for f*cks sake!"
+
+            a "Do you think I’ll believe that?! Then what are those messages then? Willow, I’m not blind!"
+
+            b "Chrys, don’t jump into conclusions when you haven’t even read the whole thing! Jake just wanted-"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "So, I’m wrong now ain't I? I’m always in the wrong, right? and you’re always right. That’s how it has always been!"
+
+            b "Chrystian, please, just listen to me!"
+
+            a "Listen? I'm listening! I'm listening to your excuses!"
+
+            b "I'm not lying! I'm just... I'm just tired…"
+
+            hide cneutral with dissolve
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}Chrystian was at a loss for words when he saw that Willow started crying. Sometimes, he felt like Willow is just using this because he knew how much he hates seeing him cry…{/i}"
+
+            "{i}But, nonetheless, he really couldn’t bear seeing him cry because of him.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, please. Don’t cry… It’s my fault, okay?"
+
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Chrys… I’m tired of this. I’m tired of your constant jealousy. Can’t you just trust me?"
+
+            a "Willow…"
+
+            b "Maybe we should just... break up."
+
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}When Chrystian heard that, it felt like his heart also shattered. He turns to him, his eyes filled with disbelief. They’ve been in much worse fights like this before but this is the first time he heard Willow say those words.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "W-what?"
+    
+            show wsad with dissolve:
+                xpos 1490
+                ypos 410
+                xsize 380
+                ysize 380
+            b "I don't think this is working anymore."
+
+            a "So it's because of him? You're breaking up with me because of him?!"
+
+            b "Chrystian! How many times should I have to tell you that there’s nothing between us! It's not about him! It's about us! This… our relationship isn't working."
+
+            a "Then why?! Why are you throwing us away? We could still fix this! Do those years mean nothing to you?"
+
+            b "I'm not throwing anything away! I'm just trying to be honest with myself!"
+
+            hide csad with dissolve
+
+            hide wsad with dissolve
+
+            "{i}As both of their voices rose in a heated argument, the both of them only noticed that a speeding truck was fastly approaching their car.{/i}"
+
+            show csurprised with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "Willow, look out!"
+
+            hide csurprised with dissolve
+
+            "{i}The truck crashes into their car, sending it spinning out of control… and then the world goes black.{/i}"
+
+            scene bg black
+            with fade
+            with Pause(2)
+
+            with dissolve
+            show text "{i}Loading...{/i}":
+                xpos 1700
+                ypos 900
+            with Pause(5)
+
+            scene bg messy room2
+            with fade
+
+            "{i}Seeing those items again after a long time shook him to the core.{/i}"
+
+            "{i}Although he was glad since he saw it again, it also brought back painful memories that made his wounds reopen again.{/i}"
+
+            show csad with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            a "It wasn’t fair! Do you still remember the promise we made together?"
+
+            a "We were supposed to grow old together, go to the places that we wanted to visit, and create a family."
+
+            "{i}He throws his hands up in frustration, his face contorted with pain as tears slowly fall from his eyes.{/i}"
+
+            a "And you want to… throw all of that away. I hate you… I hate you."
+
+            "{i}Chrystian choked as he collapsed into the fall, his head in his hands as he cried.{/i}"
+
+            a "Yet, I still love you… I love you so much."
+
+            hide csad with dissolve
+
+            "{i}Chrystian sat there for a long time as he breathed raggedly. The anger that he felt, although it was still present, has somehow diminished.{/i}"
+
+            "{i}It didn’t take long for him to calm himself down as he stood up and started to clean the messes that he made.{/i}"
+
+    scene bg black with dissolve
+    with Pause(1)
+
+    show text "{i}Loading...{/i}":
+        xpos 1700
+        ypos 900
+    with Pause(10)
+    with dissolve
+
+    scene bg black
+    show text "{i}CHAPTER 3: Bargaining{/i}" with dissolve
+    with Pause(4)
+
+    scene bg black with dissolve
+    
+    "{i}Willow’s headaches, as if millions of needles prick every corner.{/i}"
+
+    scene bg car upside down with dissolve
+
+    "{i}He opens his eyes, revealing that the world that he knew was upside down. His head pounds every time that he moves around, his blood trickling to the roof of the car.{/i}"
+
+    "{i}Willow looks to his left, his love of his life unconscious.{/i}"
+
+    show wconscious with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Chrystian………"
+
+    hide wconscious with dissolve
+
+    "{i}Willow tries to wake up Christian but he remains unconscious.{/i}"
+
+    show wconscious with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Chrystian………"
+
+    hide wconscious with dissolve
+
+    "{i}He reached for the bloody body that lay beside him, nudging him as he physically could.{/i}"
+
+    "{i}Chrystian doesn’t wake up.{/i}"
+
+    "{i}Desperate, he unbuckles his seat, barely doing the same for Chrystian.{/i}"
+
+    "{i}Mustering his strength, Willow goes out at the small opening that his door had.{/i}"
+
+    scene bg car wreck with dissolve
+
+    "{i}Crawling to the other side of the car, he pulls Chrystian out, laying him away from the car crash.{/i}"
+
+    scene bg wcall with dissolve
+
+    "{i}Willow pulls out his phone, screen cracked but it still turned on.{/i}"
+
+    "{i}*3 dial tone sounds*{/i}"
+
+    "{i}Willow, with much as his strength took him, said the details, he caught his breath every word that he spoke, as if every word was his lifeline.{/i}"
+
+    scene bg car wreck with dissolve
+
+    "{i}With the assurance of an ambulance coming, he looks at Chrystian’s bloody torso, his head bleeding. He noticed that something was missing. The luster that he was too accustomed to, Chrystian’s ring was gone.{/i}"
+
+    scene bg car smoke with dissolve
+
+    "{i}Willow crawls back to the car, not noticing the smoke emitting. He scrambles around, trying to find the ring.{/i}"
+
+    scene bg car upside down w ring with dissolve
+
+    "{i}Alas, he finds it at the back of the car. The ring that embodied their lifelong bond. The ring that linked them together.{/i}"
+
+    scene bg car smoke with dissolve
+
+    "{i}As he crawls back, in the distance Chrystian finally regains consciousness.{/i}"
+
+    scene bg ceyereflection with dissolve
+
+    "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+    
+    "{i}*explosion*{/i}"
+
+    scene bg black
+    with fade
+    with Pause(1)
+
+    show text "{i}Loading...{/i}":
+        xpos 1700
+        ypos 900
+    with Pause(5)
+    with dissolve
+
+    scene bg wroom
+    with fade
+    
+    "{i}*alarm clock rings*{/i}"
+
+    "{i}The sun hanged from the sky, the birds were chirping, the slight bzzzzt of the electric fan, and the loudness of the alarm clock echoes through.{/i}"
+
+    "{i}*alarm clock rings*{/i}"
+
+    show wmorning with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Willow: Ah… What time is it already?"
+
+    hide wconscious with dissolve
+
+    "{i}Willow wakes up, still feeling groggy from his slumber. He looked at his alarm clock.{/i}"
+
+    show wmorning with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Oh fudge!!! I’M ALREADY LATE!!!!"
+
+    hide wmorning with dissolve
+
+    scene bg black with dissolve
+    with Pause(1)
+
+    scene bg wliving room
+    with fade
+
+    "{i}Willow rushes out of his bed, takes a bath, got dressed and as he prepare to set out, a growl could be heard.{/i}"
+
+    "{i}*stomach growl*{/i}"
+
+    "{i}His hunger looms over him, trying to claw its way out.{/i}"
+
+    menu:
+        "Take breakfast":
+            "{i}He grabs a loaf of bread, making himself toasted buttered bread.{/i}"
+
+            scene bg black with fade
+            with Pause(2)
+        
+            scene bg outside classroom with fade
+
+            "{i}Willow arrived at the school, sweat dripping. He stood at the door of his classroom.{/i}"
+
+            show wmate with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Maybe I’ll just skip this first class out…"
+
+            hide wmate with dissolve
+            
+            label classroom_choice:
+
+            menu loop:
+                "Enter the classroom":
+
+                    "{i}The door opens, the class shifts their attention to the sweaty Willow huffing and puffing{/i}."
+
+                    scene bg classroom
+                    with fade
+
+                    show extra with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    j "First day of classes and you are already late Mr. Flores. Introduce yourself and take a seat."
+
+                    hide extra with dissolve
+
+                    show wmate with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Yes sir. Hello everyone, I’m Willow Flores, sorry for being late, nice to meet you all."
+
+                    hide wmate with dissolve
+
+                    "{i}Willow scans the room, looking for a seat. He caught a vacant chair near a boy sitting next to a window.{/i}"
+
+                    "{i}He puts his bag down, still catching his breath and sweating.{/i}"
+
+                    show cmate with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    k "Here, take it."
+
+                    hide cmate with dissolve
+
+                    "{i}Willow hearing the stern yet gentle voice looks to his left, the boy that had eyes that he could swim in was offering his handkerchief.{/i}"
+
+                    show cmate with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    k "Take it, you’re almost drenched in sweat."
+
+                    hide cmate with dissolve
+
+                    label offer_choice:
+
+                    menu:
+                        "Accept it.":
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Ohhh umm... thank you."
+
+                            hide wmate with dissolve
+
+                            "{i}Willow took the handkerchief from the boy seated next to him, wiping the sweat away with shame.{/i}"
+
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Thank you again."
+
+                            hide wmate with dissolve
+
+                            "{i}He holds the handkerchief, reluctant in returning it drenched.{/i}"
+
+                            show cmate with dissolve:
+                                xpos 1490
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            a "No worries, you can keep it. In return for my handkerchief services, treat me to lunch later."
+
+                            "{i}*Willow chuckles*{/i}"
+
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Sure."
+
+                            hide cmate with dissolve
+
+                            hide wmate with dissolve
+
+                            scene bg black with fade
+                            with Pause(2)
+
+                            scene bg car smoke with dissolve
+
+                            "{i}Chrystian regained his consciousness, panic quickly ran through him, the only thing on his mind was Willow.{/i}"
+
+                            "{i}His head tightens as he moves, his limbs numbed, his eyes and ears were the only senses he could trust.{/i}"
+
+                            "{i}He tries to contort his body, barely making any adjustment, but just enough to see Willow crawling out of the car.{/i}"
+
+                            scene bg ceyereflection 
+                            with dissolve
+
+                            "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+
+                            "{i}*explosion*{/i}"
+
+                            scene bg explosion eye reflection
+                            with dissolve
+
+                            a "I could have saved you Willow. If I was strong enough, I could have woken up first, and I should have died, not you."
+
+                            a "If there is a god up there, please… let me turn back time."
+
+                            "{i}As the fire burns, the ambulance finally arrives.{/i}"
+
+                            "{i}Chrystian thought if they didn’t argue, if he just stayed put, if he just kept his temper checked, Willow could still be alive.{/i}"
+
+                            scene bg black
+                            with dissolve
+                            with Pause(3)
+
+                            with dissolve
+                            show text "{i}Loading...{/i}":
+                                xpos 1700
+                                ypos 900
+                            with Pause(10)
+
+
+                        "Decline it.":
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Sorry, but uhh it’s okay."
+
+                            hide wmate with dissolve
+
+                            show cmate with dissolve:
+                                xpos 1490
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            k "You sure?"
+
+                            hide cmate with dissolve
+
+                            "{i}The handkerchief tempts Willow as he feels the sweat flow down his forehead.{/i}"
+
+                            jump offer_choice
+
+                "Skip the first period":
+                    
+                    show wmate with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Mmmm… It’s the first day, I shouldn’t miss it."
+
+                    hide wmate with dissolve
+
+                    jump classroom_choice
+
+        "Just leave the house already.":
+
+            "{i}Willow’s hunger can wait, “I can’t be late, this is my first day of school!”{/i}"
+
+            "{i}He left, a knot forming in his stomach.{/i}"
+
+            "{i}Upon arriving, he rushed to his classroom. He bursted into the room, warranting weird looks from his classmates inside.{/i}"
+
+            "{i}6 vacant chairs were available, two adjacent seats on the left, two in the middle aisle, and two on the right side.{/i}"
+
+            show wmate with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Where should I sit?"
+
+            hide wmate with dissolve
+
+            menu:
+                "Sit on the left side.":
+                    jump consequence
+
+                "Sit in the middle.":
+                    jump consequence
+
+                "Sit on the right side.":
+                    jump consequence
+
+            label consequence:
+                show wmate with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                b "I guess I’ll just have to sit right here."
+
+                hide wmate with dissolve
+
+                "{i}Willow made it into class just at the right time. In a few minutes the other 4 seats were already taken, leaving a vacant seat beside him. Later, a boy with hair parted in the middle arrived, sweating and catching his breath.{/i}"
+
+                "{i}As he sat down beside him, out of pity, Willow offered him…{/i}"
+
+                menu:
+                    "Offer my handkerchief.":
+                        show wmate with dissolve:
+                            xpos 50
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        b "Take this."
+
+                        hide wmate with dissolve
+
+                        "{i}He nudges his handkerchief to the sweaty boy.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Oh, thank you so much, I didn’t get to bring one."
+
+                        hide cmate with dissolve
+
+                        "{i}The boy spoke with some toasted remains on the corner of his lips.{/I}"
+
+                        "{i}He pats his face down, drenching Willow’s handkerchief.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Here, thank you again. How about lunch later? My treat?"
+
+                        hide cmate with dissolve
+
+                        "{i}Chrystian nudges the handkerchief back.{/I}"
+
+                        menu:
+                            "Take it.":
+                                jump consequence2
+
+                            "Tell him he can have it.":
+                                jump consequence2
+
+                        label consequence2:
+
+                            "{i}The two boys happily talk to each other, Willow happy that the boy accepted his kindness, and the boy was just happy for Willow’s thoughtfulness.{/I}"
+
+                        scene bg black with fade
+                        with Pause(2)
+
+                        scene bg car smoke with dissolve
+
+                        "{i}Chrystian regained his consciousness, panic quickly ran through him, the only thing on his mind was Willow.{/i}"
+
+                        "{i}His head tightens as he moves, his limbs numbed, his eyes and ears were the only senses he could trust.{/i}"
+
+                        "{i}He tries to contort his body, barely making any adjustment, but just enough to see Willow crawling out of the car.{/i}"
+
+                        scene bg ceyereflection 
+                        with dissolve
+
+                        "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+
+                        "{i}*explosion*{/i}"
+
+                        scene bg explosion eye reflection
+                        with dissolve
+
+                        a "I could have saved you Willow. If I was strong enough, I could have woken up first, and I should have died, not you."
+
+                        a "If there is a god up there, please… let me turn back time."
+
+                        "{i}As the fire burns, the ambulance finally arrives.{/i}"
+
+                        "{i}Chrystian thought if they didn’t argue, if he just stayed put, if he just kept his temper checked, Willow could still be alive.{/i}"
+
+                        scene bg black
+                        with dissolve
+                        with Pause(1)
+
+                    "Give him my tissues.":
+                        show wmate with dissolve:
+                            xpos 50
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        b "Take this."
+
+                        hide wmate with dissolve
+
+                        "{i}He nudges his handkerchief to the sweaty boy.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Oh, thank you so much, I didn’t get to bring one."
+
+                        hide cmate with dissolve
+
+                        "{i}The boy spoke with some toasted remains on the corner of his lips.{/I}"
+
+                        "{i}He pats his face down, drenching Willow’s handkerchief.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Here, thank you again. How about lunch later? My treat?"
+
+                        hide cmate with dissolve
+
+                        "{i}The two boys happily talk to each other, Willow happy that the boy accepted his kindness, and the boy was just happy for Willow’s thoughtfulness.{/I}"
+
+                        scene bg black with fade
+                        with Pause(2)
+
+                        scene bg car smoke with dissolve
+
+                        "{i}Chrystian regained his consciousness, panic quickly ran through him, the only thing on his mind was Willow.{/i}"
+
+                        "{i}His head tightens as he moves, his limbs numbed, his eyes and ears were the only senses he could trust.{/i}"
+
+                        "{i}He tries to contort his body, barely making any adjustment, but just enough to see Willow crawling out of the car.{/i}"
+
+                        scene bg ceyereflection 
+                        with dissolve
+
+                        "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+
+                        "{i}*explosion*{/i}"
+
+                        scene bg explosion eye reflection
+                        with dissolve
+
+                        a "I could have saved you Willow. If I was strong enough, I could have woken up first, and I should have died, not you."
+
+                        a "If there is a god up there, please… let me turn back time."
+
+                        "{i}As the fire burns, the ambulance finally arrives.{/i}"
+
+                        "{i}Chrystian thought if they didn’t argue, if he just stayed put, if he just kept his temper checked, Willow could still be alive.{/i}"
+
+                        scene bg black
+                        with dissolve
+                        with Pause(1)
+
+    show text "{i}Loading...{/i}":
+        xpos 1700
+        ypos 900
+    with Pause(10)
+    with dissolve
+
+    return
+    with fade
