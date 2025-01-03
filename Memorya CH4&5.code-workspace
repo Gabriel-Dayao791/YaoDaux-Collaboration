@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../Memorya Chapter 4/game/images"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.rpyc": true,
+			"**/*.rpa": true,
+			"**/*.rpymc": true,
+			"**/cache/": true
+		}
+	}
+}
