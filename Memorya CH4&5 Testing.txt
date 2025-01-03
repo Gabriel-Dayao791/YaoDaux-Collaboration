@@ -1,0 +1,2529 @@
+
+define c = Character("Chrystian")
+define w = Character("Willow (in his mind)")
+define cd = Character("Chrystian's Dad")
+define cm = Character("Chrystian's Mom")
+define f = Character("Florist")
+define cs = Character("Cashier")
+define ws = Character("Willow's Spirit")
+
+
+label start:
+
+    scene ch4 with Pause (4)
+
+    scene bg outside
+    with Pause(3)
+    
+    show c sad with dissolve:
+        xsize 600
+        ysize 600
+        xpos 650
+        ypos 200
+
+    "It has been a week after he had a massive breakdown and for Chrys… it seems like he was going down and down and down into a spiral. He felt suffocated as if a shackle was placed on him that he couldn’t break free from."
+    
+
+    c "Why am I even here?"
+
+
+    "That’s the thought that Chrystian often had. He was exhausted… yet he had to continue living for the sake of the people who loved him. It was like half of him was missing the moment that Willow left."
+    "{i}He was only living for the sake of living.{/i}" with dissolve
+
+    "As Chrystian was walking rather absentmindedly, he didn’t notice that he was about to collide into someone. A moment later, a shout was heard from his right."
+    
+    hide c sad with dissolve
+
+    
+    show random with dissolve:
+        xpos 1490
+        ypos 410
+        xsize 380
+        ysize 380
+    
+    
+    "Random Passerby" "You kid! What are you doing just standing there in the middle?! Do you think you own the place? The street is crowded as it is and there you are! Standing in place as if you're the only one in this world!"
+    "Looking back, he came face to face to an angry looking man as he shoved passed him, not even bothering to hear his response."
+    
+
+    show c angry with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    with Pause(2)
+
+    "Random Passerby" "Kids these days! Tsk tsk tsk."
+
+    hide random with dissolve
+    
+    scene crowd with dissolve
+    
+    "Seeing that a few people were looking at him, he went to the side of the road before burying his face in his hand."
+
+    scene bg outside
+
+    hide c angry with dissolve
+
+    show c worried with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+
+    "{i}He wanted to scream.{/i}" with dissolve
+
+    "{i}He wanted to know why the world is so unfair.{/i}" with dissolve
+
+    "{i}Yet there is no one he could approach to help him.{/i}" with dissolve
+
+    "Chrystian stayed seated there for a while before he got up and aimlessly walked around. He didn't even know where his feet could lead him, yet he didn't care."
+
+    "While he walked, snippets of memory suddenly rushed through his mind."
+
+    w "Chrys! Let's take a picture here okay?"
+    w "How about we go buy an ice cream later?"
+    w"Look at these flowers, they're so beautiful..."
+    w "HAHAHAHA, stop HAHAHA tickling! I wouldn't dare anymore!"
+
+
+    "Chrystian stopped in the middle of the road as his head started hurting. He didn't even notice the tears that started to gather in his eyes as he tried to remember what happened on that day, only to have his head hurt more than ever."
+
+    "He didn't even notice the tears that started to gather in his eyes as he tried to remember what happened on that day, only to have his head hurt more than ever."
+
+    w "Chrys… I…"
+
+    c "No."
+
+    c "What is he saying"
+
+    w "(unclear voice)"
+
+    c "No. Please…"
+
+    "Chrystian grimaced as he held his head, his body crouching in pain when a person suddenly held his shoulders and tried to talk to him."
+
+    hide c crying with dissolve
+    
+    show random with dissolve:
+        xpos 1490
+        ypos 410
+        xsize 380
+        ysize 380
+
+    with Pause(1)
+
+    show c worried with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    with Pause(2)
+
+    scene crowd with dissolve
+
+    "Random Passerby" "Hey! Are you okay!?"
+
+    "Random Passerby" "What are you guys doing?! Stop crowding him!"
+
+    "The people shouting and clamouring around Chrystian fell into deaf ears as he felt like the world was moving. He wobbly stood up as he swatted the arms trying to help him before slowly walking away like he couldn’t see nor hear anything."
+
+    "Random Passerby" "Hey! Are you okay!?"
+
+    "Random Passerby" "Aiya, just let the poor guy go."
+    
+    "Random Passerby" " *noises* "
+
+    hide random with dissolve
+    
+    hide c worried with dissolve
+
+    scene black with Pause(3)
+
+    scene c surprised w cdcm with fade 
+
+    "The door slams shut behind Chrystian as he lifelessly starts taking off his shoes before putting them into the shoe rack. He then turned to lock the door before scurrying inside."
+    
+
+    "Chrystian (shocked)" "Mom… dad… I didn't know that you'd be here…"
+
+    "Chrystian's Dad" "We wouldn't be visiting you like this if you knew how to answer your damn phone."
+
+    "Chrystian's Mom" "Dear… Chrystian, don't listen to your father. You know how he is but… look at you! You look like a mess!"
+
+    "Chrystian’s mother then tried to approach him, reaching out her hand to touch his arm but was stopped when Chrystian flinched."
+
+    c "Mom… I'm fine. If there's nothing else then I'll head back into my room."
+
+    "Chrystian's Dad" "Chrystian! Is that the way you talk to your mother?!"
+
+    "Chrystian's Dad" "And you- you! What the hell is going on?!"
+
+    menu: 
+        "Dont respond":
+
+            "Chrystian just looked at his father with pain hidden in his eyes before he lowered his head as he remained mum about it."
+
+            "He knew his father. Once he tried to answer him then the ending would only be them arguing… so Chrystian tried to bypass his father instead."
+
+            "Chrystian's Dad" "Oh, really now? Is that how you’re gonna act?! You’re going to ignore us?"
+
+            cm "Dear, calm down. How about we come back later once the both of you cooled down?"
+
+            cd "No! We’re staying! And that is one of the reasons why that kid is so stubborn is because you keep indulging him!"
+
+            cd "Look at how messy he looks! It’s like that day-"
+
+            "Chrystian’s dad suddenly stopped as he looked carefully at Chrystian again. He knew how devastated Chrystian got when Willow passed away. He certainly didn’t want that to happen again."
+
+            cm "Dear, no matter what you thought of, please don’t say it."
+
+            cd "Is this about Willow again, Chrys?"
+
+            "Chrystian stiffened as he looked back at his father when Willow’s name was mentioned before looking away again."
+
+            c "Please ma, pa… leave me alone just this time…"
+
+            cd "So it is about him… *curse word* Chrys! Willow’s been gone for a year now! You can’t ruin your life just because he's–"
+
+            cd "Willow’s gone and no matter how depress you got nor how much you cry isn’t gonna change the fact that he! was! gone!"
+
+            scene c angry crying w cdcm with dissolve
+
+            c "SHUT UP! YOU DON’T UNDERSTAND BECAUSE YOU HAVEN’T LOST SOMEONE YOU LOVED LIKE THIS!"
+
+            "Chrystian (mumbling as he cried)" "He was my everything…"
+
+            cd "Don’t you dare talk to me like that! Do you think you’re the only one who lost someone you cherished?!"
+
+            cd " I've lost someone I cherished too but do you know what’s the difference between us?! I never let the pain ruin my life!"
+
+            "Chrystian's Mom (crying)" "Chrys, your dad is right. You can grieve. You can feel pain. But please… don't let it ruin your future.. I'm begging you."
+
+            c "I can't… Do you guys know what I felt when the doctor said that he died? It’s like a part of me also left with him…"
+
+            "Chrystian’s dad felt pain when he looked at his son who was now crying but he pulled his wife's hand when she was about to hug him."
+            
+            cd "Do you know what I regret? I regret letting you continue your relationship with him! If I could turn back time then I would do everything…"
+
+            cd "Everything to never let the two of you meet again so you wouldn't be like this!"
+
+            "Everything to never let the two of you meet again so you wouldn't be like this!"
+
+            c "How can you say that, dad? You guys were the first hand witness who knew how much I loved him…"
+
+            c "I couldn't even believe how you guys moved on too fast as if he was just a casual acquaintance you knew! It's like I'm the only one who really grieved-"
+
+            cd "So what do you want huh? For us to only revolve around him? Well, fun fact, we have our own lives too! "
+
+            cm "Chrys, we're worried about you. You can't just shut everyone out. We know that it's been hard for you to accept-"
+
+            c "Because you don't understand me! The pain that I've been dealing with, everything! All I'm asking is just a little more time! Is that really hard to give?!"
+
+            c "What do you guys even know?! Why? Is the way i’m behaving affecting your reputation about how your fucking son can’t still move on and get his life back on t–"
+           
+            "*SLAP*"
+
+            "Chrystian abruptly stopped speaking as he looked at his father with mixed emotions."
+
+            cm "Oh, god. Chrys, your father didn’t mean it. He… he was just-"
+
+            cd "Oh, I fucking mean it! Because for the love of god Chrys! You’re being selfish! You don’t care about what other people feel, you only care about yours!"
+
+            cd "It’s always about you, your feelings, and yourself and never about everything else!"
+
+            cd "That’s one of the reason why Willow felt suffocated because you're always behaving like an immature brat–"
+
+            c "GET OUT!"
+
+            c "The door is there and I won’t escort you out. Please see yourselves out because I’m out of here."
+
+            "His mother and father are still saying something but Chrystian couldn't hear them anymore as he went back to his room and slammed the door shut."
+            
+            scene c sad room
+
+            "The few months felt like a blur after he got into that argument with his parents. His mother does still contact him to ask how he's doing and whatnot but he wasn't responding much to them."
+
+            "Of course it wasn't because of what happened but he was kind of ashamed to face them… especially his father since he knew that all his father said was right."
+
+            "The world used to be so colourful when you're around but it was just black and white now."
+
+            scene c crying room
+
+            "Chrystian (crying)" "I don't know what I should do anymore…"
+
+            "Chrystian cried while holding the picture frame with the both of them together before looking at the item at his bedside table."
+
+            menu:
+                "Knife":
+
+                    c "I still remember the day we bought this apartment… You did all the decorating since you said that I sucked at it so you let me handle buying the furniture…"
+
+                    "Chrystian then looked around the dark bedroom with tears falling from his eyes."
+
+                    c "We even got into an argument when we're talking about how we should decorate this room… Though you just meshed our ideas together even though I'm not sure if it would work…"
+
+                    c "It did though (laugh)."
+
+                    c "I missed you… so… so much."
+
+                    "Glancing at the knife at his bedside table, Chrystian's hand shook as he took hold of it before lowering it to his side."
+
+                    c "Please, don't blame yourself again. This time, it's my decision. I wouldn't let you get hurt again."
+
+                    c "Willow, please wait for me. I'll come to be with you soon…"
+
+                    "He then took his phone to compose a message that he could send to his friends and family. There's a lot of things that he wanted to say but it only ended with–"
+
+                    "Chrystian (text)" "‘Thank you for being here for me through thick and thin. I really appreciate the love and support you gave me even when I am hard to get along with. Don’t miss me too much and know that I love you guys too.’"
+
+                    "After hitting send, Chrystian put down his phone and took the knife again with shaking hands before hovering it around his wrist."
+
+                    c "It'll be over soon."
+
+                    "Five minutes later, Chrystian fell down to the floor… With blood slowly gushing from his wrists."
+
+                    "Then everything went dark."
+
+                    scene hospital ward
+
+                    "When Chrystian woke up again, a white ceiling greeted him as he looked around the room."
+
+                    "Chrystian (Thinking)" "What… Happened? Where… is this?"
+
+                    cm "Oh! Thank God you’re awake! Honey, come here! Chrystian is awake!"
+
+                    "Chrystian groggily looked at his mother as she cried beside him while holding his hand. His father also entered the door with a look of worry in his face."
+
+                    cm "Oh Chrystian, we thought we've lost you."
+
+                    cd "Chrys, how can you do this? Do you know how worried we were when I received a call from your mother saying that you… you- "
+
+                    "Chrystian's Dad (crying)" "Tried to harm yourself? Have you ever thought about what we would feel?"
+
+                    c "Mom… Dad… I'm sorry."
+
+                    c "It's just I couldn't handle it anymore… I tried… I really tried my hardest to move on but I just couldn't."
+
+                    "Chrystian (broke down)" "It’s like I'm stuck in a loop that I couldn't get out of and the pain is just getting worse with each passing day… it's consuming me."
+
+                    cd "We know. We know. I knew that I acted out of line the last time we met but all I wanted is the best for you, Chrys."
+
+                    cd "We understand and that's why we want to help you… but we wouldn't be able to do that if you kept pushing everyone away."
+
+                    "Chrystian cried more as he listened to his father's voice. Looking at his parents and his brother who's probably on a flight back here, he already knew how scared they must have been."
+
+                    c "Willow… He's always the one waiting for me… and all I do is hurt and disappoint him again… and again."
+
+                    c "I just thought that maybe this time… I could do something for him. That, this time, he wouldn’t have to wait for me again and-"
+
+                    cm "Chrys, shh. We know… and we're here for you. We'll help you get through this."
+
+                    cm "And Willow can wait for you, Chrys. If he was still here then he'll probably be the first one to scold you because of what you have become."
+
+                    cd "Yeah, that kid is also stubborn but we know that what he feels for you is real… And I also knew that all he wanted was for you to be happy, Chrys."
+
+                    "Chrystian looked at his mother with tears streaming down his face as she placed a hand on him and stared right at his eyes."
+
+                    cm "Chrys, we'll get you a therapist… and this is final. If you can't say your feelings with us then maybe talking to a therapist can help."
+
+                    cd "Chrys, I think it's time for you to properly heal and move forward. I think Willow will also want that for you."
+
+
+                "Pills":
+
+                    c "Willow… I just… love you so much."
+
+                    c "I still remember the day we bought this apartment… You did all the decorating since you said that I sucked at it so you let me handle buying the furniture…"
+
+                    "Chrystian then looked around the dark bedroom with tears falling from his eyes."
+
+                    c "We even got into an argument when we're talking about how we should decorate this room… Though you just meshed our ideas together even though I'm not sure if it would work…"
+
+                    c "It did though (laugh)."
+
+                    c "I missed you… so… so much."
+
+                    "Glancing at the pills at his bedside table, Chrystian's hand shook as he took hold of it before lowering it to his side."
+
+                    c "Please, don't blame yourself again. This time, it's my decision. I wouldn't let you get hurt again."
+
+                    c "Willow, please wait for me. I'll come to be with you soon…"
+
+                    "He then took his phone to compose a message that he could send to his friends and family. There's a lot of things that he wanted to say but it only ended with–"
+
+                    "Chrystian (text)" "‘Thank you for being here for me through thick and thin. I really appreciate the love and support you gave me even when I am hard to get along with. Don’t miss me too much and know that I love you guys too.’"
+                    
+                    "After hitting send, Chrystian put down his phone and took the pills again with shaking hands."
+
+                    c "It'll be over soon."
+
+                    "As he swallowed the pills one by one, the memories of his time together with Willow, along with his friends and family flashed through his mind."
+
+                    "Chrystian (with a bitter smile)" "Let's meet again if there is ever a next life… but this time… Willow is waiting for me."
+
+                    "Five minutes later, Chrystian fell down to the ground as the pills in the bottle got scattered all over the floor."
+
+                    "Then everything went dark"
+
+                      
+                    scene hospital ward
+
+                    "When Chrystian woke up again, a white ceiling greeted him as he looked around the room."
+
+                    "Chrystian (Thinking)" "What… Happened? Where… is this?"
+
+                    cm "Oh! Thank God you’re awake! Honey, come here! Chrystian is awake!"
+
+                    "Chrystian groggily looked at his mother as she cried beside him while holding his hand. His father also entered the door with a look of worry in his face."
+
+                    cm "Oh Chrystian, we thought we've lost you."
+
+                    cd "Chrys, how can you do this? Do you know how worried we were when I received a call from your mother saying that you… you- "
+
+                    "Chrystian's Dad (crying)" "Tried to harm yourself? Have you ever thought about what we would feel?"
+
+                    c "Mom… Dad… I'm sorry."
+
+                    c "It's just I couldn't handle it anymore… I tried… I really tried my hardest to move on but I just couldn't."
+
+                    "Chrystian (broke down)" "It’s like I'm stuck in a loop that I couldn't get out of and the pain is just getting worse with each passing day… it's consuming me."
+
+                    cd "We know. We know. I knew that I acted out of line the last time we met but all I wanted is the best for you, Chrys."
+
+                    cd "We understand and that's why we want to help you… but we wouldn't be able to do that if you kept pushing everyone away."
+
+                    "Chrystian cried more as he listened to his father's voice. Looking at his parents and his brother who's probably on a flight back here, he already knew how scared they must have been."
+
+                    c "Willow… He's always the one waiting for me… and all I do is hurt and disappoint him again… and again."
+
+                    c "I just thought that maybe this time… I could do something for him. That, this time, he wouldn’t have to wait for me again and-"
+
+                    cm "Chrys, shh. We know… and we're here for you. We'll help you get through this."
+
+                    cm "And Willow can wait for you, Chrys. If he was still here then he'll probably be the first one to scold you because of what you have become."
+
+                    cd "Yeah, that kid is also stubborn but we know that what he feels for you is real… And I also knew that all he wanted was for you to be happy, Chrys."
+
+                    "Chrystian looked at his mother with tears streaming down his face as she placed a hand on him and stared right at his eyes."
+
+                    cm "Chrys, we'll get you a therapist… and this is final. If you can't say your feelings with us then maybe talking to a therapist can help."
+
+                    cd "Chrys, I think it's time for you to properly heal and move forward. I think Willow will also want that for you."
+
+        "Argue":
+
+            c "Dad, if you’re only here to scold me then please just go out and leave me alone!"
+
+            cd "Oh, really now? You just saw your parents whom you didn’t see for a long time and this is how you’re gonna act?!"
+
+
+            cd "We didn’t raise you just so you could treat us like this you ungrateful brat!"
+
+            cm "Dear, calm down. How about we come back later once the both of you cooled down?"
+
+            cd "No! We’re staying! And that is one of the reasons why that kid is so stubborn is because you keep indulging him!"
+
+            cd "Look at how messy he looks! It’s like that day-"
+
+            "Chrystian’s dad suddenly stopped as he looked carefully at Chrystian again. He knew how devastated Chrystian got when Willow passed away. He certainly didn’t want that to happen again."
+
+            cm "Dear, no matter what you thought of, please don’t say it."
+
+            cd "Is this about Willow again, Chrys?"
+
+            "Chrystian stiffened as he looked back at his father when Willow’s name was mentioned before looking away again."
+
+            c "Please ma, pa… just… go away.. please."
+
+            cd "So it is about him… *curse word* Chrys! Willow’s been gone for a year now! You can’t ruin your life just because he's–"
+
+            cd "Willow’s gone and no matter how depress you got nor how much you cry isn’t gonna change the fact that he! was! gone!"
+
+            scene c angry crying w cdcm with dissolve
+
+            c "SHUT UP! YOU DON’T UNDERSTAND BECAUSE YOU HAVEN’T LOST SOMEONE YOU LOVED LIKE THIS!"
+
+            "Chrystian (mumbling as he cried)" "He was my everything… "
+
+            cd "Don’t you dare talk to me like that! Do you think you’re the only one who lost someone you cherished?!"
+
+            cd " I've lost someone I cherished too but do you know what’s the difference between us?! I never let the pain ruin my life!"
+
+            "Chrystian's Mom (crying)" "Chrys, your dad is right. You can grieve. You can feel pain. But please… don't let it ruin your future.. I'm begging you."
+
+            c "I can't… Do you guys know what I felt when the doctor said that he died? It’s like a part of me also left with him…"
+
+            "Chrystian’s dad felt pain when he looked at his son who was now crying but he pulled his wife's hand when she was about to hug him."
+
+            cd "Do you know what I regret? I regret letting you continue your relationship with him! If I could turn back time then I would do everything…"
+
+            cd "Everything to never let the two of you meet again so you wouldn't be like this!"
+
+            "Chrystian looked at his father in disbelief before it turned to anger."
+
+            c "How can you say that, dad? You guys were the first hand witness who knew how much I loved him…"
+
+            c "I couldn't even believe how you guys moved on too fast as if he was just a casual acquaintance you knew! It's like I'm the only one who really grieved-"
+
+            cd "So what do you want huh? For us to only revolve around him? Well, fun fact, we have our own lives too!"
+
+            cm "Chrys, we're worried about you. You can't just shut everyone out. We know that it's been hard for you to accept-"
+
+            c "Because you don't understand me! The pain that I've been dealing with, everything! All I'm asking is just a little more time! Is that really hard to give?!"
+
+            c "What do you guys even know?! Why? Is the way i’m behaving affecting your reputation about how your fucking son can’t still move on and get his life back on t–"
+
+            "*SLAP*"
+
+            "Chrystian abruptly stopped speaking as he looked at his father with mixed emotions."
+
+            cm "Oh, god. Chrys, your father didn’t mean it. He… he was just-"
+
+            cd "Oh, I fucking mean it! Because for the love of god Chrys! You’re being selfish! You don’t care about what other people feel, you only care about yours!"
+
+            cd "It’s always about you, your feelings, and yourself and never about everything else!"
+
+            cd "That’s one of the reason why Willow felt suffocated because you're always behaving like an immature brat–"
+
+
+            c "GET OUT!"
+
+            c "The door is there and I won’t escort you out. Please see yourselves out because I’m out of here."
+
+            "His mother and father are still saying something but Chrystian couldn't hear them anymore as he went back to his room and slammed the door shut."
+
+            scene c sad room
+
+            "The few months felt like a blur after he got into that argument with his parents. His mother does still contact him to ask how he's doing and whatnot but he wasn't responding much to them."
+
+            "Of course it wasn't because of what happened but he was kind of ashamed to face them… especially his father since he knew that all his father said was right."
+
+            "The world used to be so colourful when you're around but it was just black and white now."
+
+            scene c crying room
+
+            "Chrystian (crying)" "I don't know what I should do anymore…"
+
+            "Chrystian cried while holding the picture frame with the both of them together before looking at the item at his bedside table."
+
+            menu:
+                "Knife":
+
+                    c "I still remember the day we bought this apartment… You did all the decorating since you said that I sucked at it so you let me handle buying the furniture…"
+
+                    "Chrystian then looked around the dark bedroom with tears falling from his eyes."
+
+                    c "We even got into an argument when we're talking about how we should decorate this room… Though you just meshed our ideas together even though I'm not sure if it would work…"
+
+                    c "It did though (laugh)."
+
+                    c "I missed you… so… so much."
+
+                    "Glancing at the knife at his bedside table, Chrystian's hand shook as he took hold of it before lowering it to his side."
+
+                    c "Please, don't blame yourself again. This time, it's my decision. I wouldn't let you get hurt again."
+
+                    c "Willow, please wait for me. I'll come to be with you soon…"
+
+                    "He then took his phone to compose a message that he could send to his friends and family. There's a lot of things that he wanted to say but it only ended with–"
+
+                    scene phone with dissolve
+
+                    "Chrystian (text)" "‘Thank you for being here for me through thick and thin. I really appreciate the love and support you gave me even when I am hard to get along with. Don’t miss me too much and know that I love you guys too.’"
+
+                    "After hitting send, Chrystian put down his phone and took the knife again with shaking hands before hovering it around his wrist."
+
+                    scene c crying room with dissolve
+
+                    c "It'll be over soon."
+
+                    "Five minutes later, Chrystian fell down to the floor… With blood slowly gushing from his wrists."
+
+                    "Then everything went dark."
+
+                    scene hospital ward
+
+                    "When Chrystian woke up again, a white ceiling greeted him as he looked around the room."
+
+                    "Chrystian (Thinking)" "What… Happened? Where… is this?"
+
+                    cm "Oh! Thank God you’re awake! Honey, come here! Chrystian is awake!"
+
+                    "Chrystian groggily looked at his mother as she cried beside him while holding his hand. His father also entered the door with a look of worry in his face."
+
+                    cm "Oh Chrystian, we thought we've lost you."
+
+                    cd "Chrys, how can you do this? Do you know how worried we were when I received a call from your mother saying that you… you- "
+
+                    "Chrystian's Dad (crying)" "Tried to harm yourself? Have you ever thought about what we would feel?"
+
+                    c "Mom… Dad… I'm sorry."
+
+                    c "It's just I couldn't handle it anymore… I tried… I really tried my hardest to move on but I just couldn't."
+
+                    "Chrystian (broke down)" "It’s like I'm stuck in a loop that I couldn't get out of and the pain is just getting worse with each passing day… it's consuming me."
+
+                    cd "We know. We know. I knew that I acted out of line the last time we met but all I wanted is the best for you, Chrys."
+
+                    cd "We understand and that's why we want to help you… but we wouldn't be able to do that if you kept pushing everyone away."
+
+                    "Chrystian cried more as he listened to his father's voice. Looking at his parents and his brother who's probably on a flight back here, he already knew how scared they must have been."
+
+                    c "Willow… He's always the one waiting for me… and all I do is hurt and disappoint him again… and again."
+
+                    c "I just thought that maybe this time… I could do something for him. That, this time, he wouldn’t have to wait for me again and-"
+
+                    cm "Chrys, shh. We know… and we're here for you. We'll help you get through this."
+
+                    cm "And Willow can wait for you, Chrys. If he was still here then he'll probably be the first one to scold you because of what you have become."
+
+                    cd "Yeah, that kid is also stubborn but we know that what he feels for you is real… And I also knew that all he wanted was for you to be happy, Chrys."
+
+                    "Chrystian looked at his mother with tears streaming down his face as she placed a hand on him and stared right at his eyes."
+
+                    cm "Chrys, we'll get you a therapist… and this is final. If you can't say your feelings with us then maybe talking to a therapist can help."
+
+                    cd "Chrys, I think it's time for you to properly heal and move forward. I think Willow will also want that for you."
+
+
+                "Pills":
+
+                    c "Willow… I just… love you so much."
+
+                    c "I still remember the day we bought this apartment… You did all the decorating since you said that I sucked at it so you let me handle buying the furniture…"
+
+                    "Chrystian then looked around the dark bedroom with tears falling from his eyes."
+
+                    c "We even got into an argument when we're talking about how we should decorate this room… Though you just meshed our ideas together even though I'm not sure if it would work…"
+
+                    c "It did though (laugh)."
+
+                    c "I missed you… so… so much."
+
+                    "Glancing at the pills at his bedside table, Chrystian's hand shook as he took hold of it before lowering it to his side."
+
+                    c "Please, don't blame yourself again. This time, it's my decision. I wouldn't let you get hurt again."
+
+                    c "Willow, please wait for me. I'll come to be with you soon…"
+
+                    "He then took his phone to compose a message that he could send to his friends and family. There's a lot of things that he wanted to say but it only ended with–"
+
+                    scene phone with dissolve
+
+                    "Chrystian (text)" "‘Thank you for being here for me through thick and thin. I really appreciate the love and support you gave me even when I am hard to get along with. Don’t miss me too much and know that I love you guys too.’"
+                    
+                    "After hitting send, Chrystian put down his phone and took the pills again with shaking hands."
+
+                    scene c crying room with dissolve
+
+                    c "It'll be over soon."
+
+                    "As he swallowed the pills one by one, the memories of his time together with Willow, along with his friends and family flashed through his mind."
+
+                    "Chrystian (with a bitter smile)" "Let's meet again if there is ever a next life… but this time… Willow is waiting for me."
+
+                    "Five minutes later, Chrystian fell down to the ground as the pills in the bottle got scattered all over the floor."
+
+                    "Then everything went dark"
+
+                      
+                    scene hospital ward
+
+                    "When Chrystian woke up again, a white ceiling greeted him as he looked around the room."
+
+                    "Chrystian (Thinking)" "What… Happened? Where… is this?"
+
+                    cm "Oh! Thank God you’re awake! Honey, come here! Chrystian is awake!"
+
+                    "Chrystian groggily looked at his mother as she cried beside him while holding his hand. His father also entered the door with a look of worry in his face."
+
+                    cm "Oh Chrystian, we thought we've lost you."
+
+                    cd "Chrys, how can you do this? Do you know how worried we were when I received a call from your mother saying that you… you- "
+
+                    "Chrystian's Dad (crying)" "Tried to harm yourself? Have you ever thought about what we would feel?"
+
+                    c "Mom… Dad… I'm sorry."
+
+                    c "It's just I couldn't handle it anymore… I tried… I really tried my hardest to move on but I just couldn't."
+
+                    "Chrystian (broke down)" "It’s like I'm stuck in a loop that I couldn't get out of and the pain is just getting worse with each passing day… it's consuming me."
+
+                    cd "We know. We know. I knew that I acted out of line the last time we met but all I wanted is the best for you, Chrys."
+
+                    cd "We understand and that's why we want to help you… but we wouldn't be able to do that if you kept pushing everyone away."
+
+                    "Chrystian cried more as he listened to his father's voice. Looking at his parents and his brother who's probably on a flight back here, he already knew how scared they must have been."
+
+                    c "Willow… He's always the one waiting for me… and all I do is hurt and disappoint him again… and again."
+
+                    c "I just thought that maybe this time… I could do something for him. That, this time, he wouldn’t have to wait for me again and-"
+
+                    cm "Chrys, shh. We know… and we're here for you. We'll help you get through this."
+
+                    cm "And Willow can wait for you, Chrys. If he was still here then he'll probably be the first one to scold you because of what you have become."
+
+                    cd "Yeah, that kid is also stubborn but we know that what he feels for you is real… And I also knew that all he wanted was for you to be happy, Chrys."
+
+                    "Chrystian looked at his mother with tears streaming down his face as she placed a hand on him and stared right at his eyes."
+
+                    cm "Chrys, we'll get you a therapist… and this is final. If you can't say your feelings with us then maybe talking to a therapist can help."
+
+                    cd "Chrys, I think it's time for you to properly heal and move forward. I think Willow will also want that for you."
+
+    scene black with Pause(2)
+
+    scene ch5 with Pause(4)
+
+    scene ch5 with dissolve 
+
+    scene black with Pause(2)
+
+    scene therapist with dissolve 
+
+    "Therapist" "Thank you Mr. Chrystian"
+
+    "The therapy session comes to an end, he nods, saying a simple “Thank you” and he goes home to rest."
+
+    scene br with dissolve
+
+    show c neutral with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    
+    "Before he goes to sleep, he remembered that he and Willow made a bucket list of things that they would do together, he rummaged through the drawers and cabinets as he forgot where he placed it, even flipping his stationery box but the list was nowhere to be found."
+    
+
+    scene brdr with dissolve 
+
+    show c neutral with dissolve:
+        xpos 1490
+        ypos 410
+        xsize 380
+        ysize 380
+
+    c  "Where is it?"
+
+    "He muttered as he checked all the pockets of his pants and, finally, there he found the list on the back pocket. The list has 2 items, he remembered that they were supposed to add a few more things but they weren’t sure what."
+
+    hide c neutral with dissolve
+
+    scene blist with dissolve
+
+    c "Eat a bucket of chicken together and go to the Eiffel Tower…"
+
+    "As he clutched the list on hand, he placed it somewhere he could easily find it again."
+
+    scene black with Pause(3)
+
+    scene br with dissolve
+
+    show c neutral with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+
+    "The next morning rolls in and a new day awaits Chrystian."
+
+    "Deep in thought, he pondered where to go first."
+
+    menu:
+        "Flower Shop":
+
+            "He packed his stuff and he left for the flower shop."
+
+            "*Bell door sound*"
+
+            scene flower shop with dissolve
+
+            show c happy 1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+
+            c "Hello."
+
+            f "Oh! Welcome dear, what flowers do you want today?"
+
+            "Chrystian wanted to switch things up today."
+
+            c "Chrystian: I’m quite not sure just yet…"
+
+            f "Hm I see, may I know what the flowers are for?"
+
+            c "Actually, it’s for my love, who passed away not too long ago."
+
+            f "Oh! I’m sorry to hear that… Well, I have a list here, you might want to check."
+
+            "The florist hands Chrystian a list."
+
+            scene flower church list with dissolve
+
+            "The list was a bit overwhelming."
+
+            "FLOWERS SHOW THEIR COLORS ROSE" "• Deep red: I want you! 
+            • Yellow misplaced affection, I love another. 
+            • Orange: fire and flame! 
+            • Pink: you and me. 
+            • White: trust me! 
+            • White and red: together forever! 
+            • Black: It's over!"
+
+            "THE LILAC" "• Purple: spring love, you're my first love. • White: innocence, a symbol of your purity and beauty."
+
+            "THE CARNATION" "• Red: ardency, I must see you soon! • Pink: encouragement. • White: pure devotion, I offer pure love."
+
+            "THE CHRYSANTHEMUM" "• Geel: coolness, I belong to another! • Rood: answered love, I love you. • Wit: honesty, I trust you completely, All souls, truth."
+
+            "THE DAHLIA" "• Geel: dislike, your attention make me uncomfortable. • Rood: rejection, you have too many expectations. • Wit: outright refusal, stop."
+
+            "THE GERBERA" "• Red: familiarity with each other, speak of friendship not of love. • White: indecision, I have not yet decided. • pink: uncertainty, I await your explanation."
+
+            "THE IRIS" "• Yellow: suffering, I share your sorrow. • Purple: glow, my heart glows for you."
+
+            "He skims through the pages, ultimately deciding on a bunch of flowers."
+
+            scene flower shop with dissolve
+
+            show c happy 1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+
+            "As Chrystian was about to pay, he realized that he’s running short."
+
+            c " Sorry Madam, but I’m running short on cash, I’ll just withdraw if that’s ok with you."
+
+            f " It’s fine but the thing is I’m closing early today…"
+
+            "Chrystian will definitely not make it."
+
+            "Looking at the 300 pesos in his wallet."
+
+            c " I’ll just buy 3 flowers."
+
+            "He looks at the flowers that he picked, deciding on what flowers he would keep."
+
+            menu:
+                "Blue":
+                    c "I’ll buy these 3."
+
+                    "He hands her 300."
+
+                    f "Thank you dear."
+
+                    "Chrystian smiles at her, and he leaves. Withdrawing first some money from the nearest ATM machine."
+
+                    scene black with Pause(2)
+
+                    scene kc with dissolve
+
+                    show c happy 2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+
+                    "Kreespy Chicken was a bit empty today."
+
+                    cs "Hello! Welcome to Kreespy Chicken, what is your order for today?"
+
+                    c "A bucket of chicken please."
+
+                    cs "Alright, what would be the flavor of the chicken."
+
+                    menu:
+                        "Spicy":
+                            
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+
+
+                        "Crispy Garlic":
+
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+                "Green":
+                    c "I’ll buy these 3."
+
+                    "He hands her 300."
+
+                    f "Thank you dear."
+
+                    "Chrystian smiles at her, and he leaves. Withdrawing first some money from the nearest ATM machine."
+
+                    scene black with Pause(2)
+
+                    scene kc with dissolve
+
+                    show c happy 2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+
+                    "Kreespy Chicken was a bit empty today."
+
+                    cs "Hello! Welcome to Kreespy Chicken, what is your order for today?"
+
+                    c "A bucket of chicken please."
+
+                    cs "Alright, what would be the flavor of the chicken."
+
+                    menu:
+                        "Spicy":
+                            
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+
+
+                        "Crispy Garlic":
+
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+                "Both":
+
+                    c "I’ll buy these 3."
+
+                    "He hands her 300."
+
+                    f "Thank you dear."
+
+                    "Chrystian smiles at her, and he leaves. Withdrawing first some money from the nearest ATM machine."
+
+                    scene black with Pause(2)
+
+                    scene kc with dissolve
+
+                    show c happy 2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+
+                    "Kreespy Chicken was a bit empty today."
+
+                    cs "Hello! Welcome to Kreespy Chicken, what is your order for today?"
+
+                    c "A bucket of chicken please."
+
+                    cs "Alright, what would be the flavor of the chicken."
+
+                    menu:
+                        "Spicy":
+                            
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+
+
+                        "Crispy Garlic":
+
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+        "Church":
+
+            "He packed his things and left for the church."
+
+            show c happy 2 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+
+            scene church with dissolve
+
+            "Upon arriving at the church, he parked his car and the church was quite crowded today, Chrystian opted to just stay outside. The church was quiet and peaceful, despite the crowd today."
+
+            show c happy 1 with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+
+            c "Hm… Maybe I’ll just go to the candle section today."
+
+            scene candles with Pause(2)
+
+            "He proceeds to the candle table to buy 3 candles. Unsure on what to buy, he refers to the guide."
+
+            scene flower church list with dissolve
+
+            "*GUIDE*" "(1) GOLD - Healing (Good Health, Recovery,) 
+            (2) GREEN - Prosperity (3) BROWN - Vocation (4) BLUE - Perseverance (Employment, Career,) (5) RED - Love (Friendship, Engagement, Family) (6) BLACK - Souls (Forgiveness, Pardon)"
+            
+            "*GUIDE*" "(7) YELLOW - Peace (Courage, Strength, Hope) (8) GRAY - Deliverance (Bad Ways, Things, Spirits) (9) VIOLET - Achievement (10) PINK - Thanksgiving | Happiness | Joy 11) PURITY - Guidance | Right Path  (12) ORANGE - Reconciliation (13) CREAM - Conversion | Faith"
+
+            menu:
+                "White,Blue, and Green":
+
+                    "Chrystian bought 3 candles, lit them up and began to pray."
+
+                    c "Dear God, may I ask for guidance for both me and Willow, may he find himself happy wherever he is and bless his soul"
+
+                    hide c happy 1 with dissolve
+
+                    scene black with Pause(2)
+
+                    scene kc with dissolve
+
+                    show c happy 2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+
+                    "Kreespy Chicken was a bit empty today."
+
+                    cs "Hello! Welcome to Kreespy Chicken, what is your order for today?"
+
+                    c "A bucket of chicken please."
+
+                    cs "Alright, what would be the flavor of the chicken."
+
+                    menu:
+                        "Spicy":
+                            
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+
+
+                        "Crispy Garlic":
+
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+
+                "White, Orange, and Purple":
+                    
+                    "Chrystian bought 3 candles, lit them up and began to pray."
+
+                    c "Dear God, may I ask for guidance for both me and Willow, may he find himself happy wherever he is and bless his soul"
+
+                    scene black with Pause(2)
+
+                    scene kc with dissolve
+
+                    show c happy 2 with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+
+                    "Kreespy Chicken was a bit empty today."
+
+                    cs "Hello! Welcome to Kreespy Chicken, what is your order for today?"
+
+                    c "A bucket of chicken please."
+
+                    cs "Alright, what would be the flavor of the chicken."
+
+                    menu:
+                        "Spicy":
+                            
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "it’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+                            
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+
+                        "Crispy Garlic":
+
+                            cs "Okay, that will be 580 pesos."
+
+                            c "Here."
+
+                            cs "I received 600 pesos; your change is 20 and your waiting time is 5 mins. We will call your number if your order is ready. Thank you."
+
+                            c "Okay, thank you"
+
+                            "5 minutes passed and Chrystian received his order."
+
+                            scene w cemetery with dissolve
+                            
+                            "The cemetery was void of life, figuratively and literally."
+
+                            "He parks his car on the side. He checks if it's locked and he walks toward a gravestone. Every step was heavy as he came closer. He seats down."
+
+                            scene w grave with dissolve
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            
+                            c "Hi, how are you?"
+
+                            "The breeze filled the silence."
+
+                            c "Sorry, I took so long today, you have no idea what happened."
+
+                            c "So, I got these flowers for you, I was supposed to get you a bit more but I didn’t have cash because I forgot to withdraw! Oh my, can you imagine that?"
+                            
+                            "Chrystian laughs, his lips tremble, and his jaw tightens. An overwhelming heaviness coats his whole being. He stared at Willow’s grave, he could feel a sting in his eyes."
+
+                            show c happy 2 with Pause(1.5)
+
+                            "He swallowed the lump on his throat, trying to keep it together."
+
+                            show c neutral with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I knew you like yellow but I got these today for a change. Do you know what these flowers meant?"
+
+                            "Chrystian touched the petals."
+
+                            c "Well, you probably would know. You loved flowers"
+
+                            "Memories of the past go through his mind. Memories of their happy days, days that Chrystian would love to go back to"
+
+                            c "If you’re still here, you’re probably gonna get mad at me, telling me I’m forgetful, and I would say “You're here to remind me things anyways” and you’ll glare at me."
+
+                            "The wind brushed past Chrystian, the coldness made him shiver."
+                            
+                            show c happy 2 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            c "I got us Kreespy Chicken, love."
+
+                            "He opened the bucket and proceeded to lay one on Willow’s grave."
+
+                            c "I don’t know if you remember but last night I found our bucket list! I thought I lost it forever to be honest, had to flip the house just to find it. We never got to start doing this stuff, you left me too early"
+
+                            "Chrystian’s cheeks felt wet. He traced the edges of the flowers, the gentle breeze rustled the leaves of nearby trees."
+
+                            "He puts on a smile, a smile Willow would love to see."
+
+                            c "Wherever you are, you’re probably laughing at how pathetic I am, forgetting my wallet, me crying… we’ll finish that list one day, even if it takes forever. It’s just one more to go anyways."
+
+                            show c crying with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "He chuckled through the tears."
+
+                            "Chrystian leaned back, closing his eyes, fully letting the wind comfort him. In this moment, he and Willow were suspended in time, sharing a meal in spirit."
+
+                            "Chrystian opens his phone, looking at a photo that they had taken together long ago. It felt like yesterday that they were just laughing about their plans, it was them against the world. Navigating the cruel world together."
+
+                            scene photo with dissolve
+
+                            c " I’ll take you to Paris, I promise you."
+
+                            show c happy 1 with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+
+                            "A soft laugh escaped his lips, emptiness in his chest. Despite that, he felt serene, he knew that Willow would never be far from him, no matter how many days passed, how many years passed, he will always be in his heart."
+
+                            "Chrystian stayed a little longer, finishing his share of the chicken. It was like time stopped just for them."
+
+                            "The wind picks up a little, the trees shift. He hears a faint whisper. A familiar whisper. His heart skipped a beat, and for a brief moment, he looked around, his eyes frantically trying to look for the voice."
+
+                            "The graveyard is empty, his breathing slows."
+
+                            "He close his eyes"
+
+                            scene w with dissolve
+
+                            w "Hey, you’re doing great, you know. Just take it one step at a time"
+
+                            "Chrystian could feel another lump forming in his throat. He opens his eyes. A moment of vivid clarity, where the line between reality and memory blurred. Willow was right in front of him. His warmth overwhelms Chrystian."
+
+                            w "You were always the sentimental one between the both of us. I would always comfort you when things go rough. Well, you know what I’d say, don’t waste time moping around here." 
+
+                            scene w happy 
+
+                            w "Live your life, do the things that you want to do, Chrystian. Don’t let me hinder you from enjoying life. Life is beautiful as you always do say. Though, don’t forget our Paris trip AND my honey garlic chicken."
+
+                            "Warmness bubbled up in Chrystian’s chest, he clutched his chest, trying to keep things together, albeit he knew he was failing."
+
+                            w "You are allowed to miss me, but you are not allowed to stay stuck. Do me a favor- take the next step, for both of us."
+
+                            "Chrystian knew that, he knew that he had to move forward. Grief overwhelms him, a deep sorrow crashes on him like a storm. He lets all his tangled emotions out. As realizations hit him, he chokes on his own sadness."  
+                            
+                            "Willow was never going to come back, and the future that they planned together was a future that he alone has to achieve. His heart shatters again, scattered like the remnants of their lost future."
+
+                            scene w cry 
+
+                            w "It’s okay. Cry if you need to. I’m right here, always."
+
+                            "The wind downs down, visions of Willow disappear along with the wind."
+
+                            "The tears slowed, but Chrystian didn’t wipe them away, feeling each one as a release, a letting go of the impossible weight that he had carried for so long."
+                            
+                            scene w 
+
+                            c "Thank you Willow, I’ll make it happen, I’ll go on, somehow, I promise."
+
+                            c "I’ll live for the both of us."
+
+                            "Chrystian steps back, looking at Willow’s grave."
+
+                            scene w grave with Pause(2)
+
+                            scene w cemetery with dissolve 
+
+                            c "See you next Sunday love."
+
+    scene black with Pause(2)
+
+    scene ch5 with Pause(4)
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+    
+    return
+
+    
+
+    
+
+
+
+
+    
+
+
+
