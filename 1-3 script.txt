@@ -55,8 +55,8 @@ label start:
     play music "audio/chapter_1.mp3" volume 0.3 noloop
     show chapter1
     with dissolve
-    with Pause(2)
-    stop music fadeout 5
+    with Pause(4)
+    stop music fadeout 4
     pause 3.0
 
     play music "audio/moonlight_sonata.mp3" volume 0.2 fadeout 0.2 loop
@@ -256,14 +256,14 @@ label start:
                         ysize 380
                     b "So, which teddy bear do you want Chrys? I swear I’ll try my best to catch it!"
 
-                    hide whappy3 with dissolve
-
                     show chappy2 with dissolve:
                         xpos 50
                         ypos 410
                         xsize 380
                         ysize 380
                     a "I’m okay with whatever you catch in there. After all, my dear Willow is going to give it to me."
+
+                    hide whappy3 with dissolve
 
                     hide chappy2 with dissolve
 
@@ -278,16 +278,12 @@ label start:
                         ysize 380
                     a "It’s fine Willow. It’s your first time after all."
 
-                    hide cworried
-
                     show chappy2:
                         xpos 50
                         ypos 410
                         xsize 380
                         ysize 380
                     a "Anyway, even if you can’t catch one, we can still play the others."
-
-                    hide chappy2 with dissolve
 
                     show wangry with dissolve:
                         xpos 1490
@@ -297,6 +293,10 @@ label start:
                     b "Now that you said that, you just ignited my fighting spirit okay?"
 
                     b" I won’t stop here until I get you one of these teddy bears!"
+
+                    hide cworried
+
+                    hide chappy2 with dissolve
 
                     hide wangry with dissolve
 
@@ -323,19 +323,15 @@ label start:
                         ysize 380
                     b "Chrys! See! I told you that I could do it!"
 
-                    hide whappy3 with dissolve
-
                     show chappy1 with dissolve:
                         xpos 50
                         ypos 410
                         xsize 380
                         ysize 380
-                    play sound "audio/laughing.mp3" volume 0.3 fadein 0.2 noloop
+                    play sound "audio/laughing.mp3" volume 0.3 fadein 1 noloop
                     a "Yeah, I thought we were about to try again HAHAHA"
 
                     stop sound
-
-                    hide chappy1 with dissolve
 
                     show whappy1 with dissolve:
                         xpos 1490
@@ -344,14 +340,18 @@ label start:
                         ysize 380
                     b "Hmp, anyways, this is for you."
 
-                    hide whappy1 with dissolve
-
                     show chappy2 with dissolve:
                         xpos 50
                         ypos 410
                         xsize 380
                         ysize 380
                     a "Thank you. I’ll name it little Willow then."
+
+                    hide whappy3 with dissolve
+
+                    hide chappy1 with dissolve
+
+                    hide whappy1 with dissolve
 
                     hide chappy2 with dissolve
 
@@ -376,16 +376,12 @@ label start:
                         ysize 380
                     b "Chrys! Why can’t you catch up? If you go on like that then I’ll be taking the finish line!"
 
-                    hide whappy3 with dissolve
-
                     show cangry with dissolve:
                         xpos 50
                         ypos 410
                         xsize 380
                         ysize 380
                     a "If you stopped throwing things my way then I can definitely catch up."
-
-                    hide cangry with dissolve
 
                     show whappy3 with dissolve:
                         xpos 1490
@@ -395,6 +391,8 @@ label start:
                     b "HAHAHA it’s not my fault that you suck at avoiding them."
 
                     hide whappy3 with dissolve
+
+                    hide cangry with dissolve
 
                     "{i}Chrystian had finally catched up just when they were about to cross the finish line when Willow hurled a bob-omb right at him.{/i}"
 
@@ -406,8 +404,6 @@ label start:
                         xsize 380
                         ysize 380
                     a "Willow, you just didn’t!"
-
-                    hide cangry with dissolve
                     
                     show whappy3 with dissolve:
                         xpos 1490
@@ -416,8 +412,6 @@ label start:
                         ysize 380
                     b "HAHAHAHAHA, Chrys, I’m sorry but HAHAHA"
 
-                    hide whappy3 with dissolve
-
                     show chappy1 with dissolve:
                         xpos 50
                         ypos 410
@@ -425,14 +419,18 @@ label start:
                         ysize 380
                     a "Okay, okay. Let’s have a rematch. I’m just going easy on you last time."
 
-                    hide chappy1 with dissolve
-
                     show whappy2 with dissolve:
                         xpos 1490
                         ypos 410
                         xsize 380
                         ysize 380
                     b "Oh? That’s some bold words for someone who’s about to lose… again."
+
+                    hide cangry with dissolve
+
+                    hide whappy3 with dissolve
+
+                    hide chappy1 with dissolve
 
                     hide whappy2 with dissolve
 
@@ -453,16 +451,12 @@ label start:
                         ysize 380
                     b "You should start taking this more seriously Mr. Castro, least you say that you’re going easy on me again."
 
-                    hide whappy1 with dissolve
-
                     show chappy1 with dissolve:
                         xpos 50
                         ypos 410
                         xsize 380
                         ysize 380
                     a "Heh, bring it on."
-
-                    hide chappy1 with dissolve
 
                     "{i}The game began as the first wave of zombies tottered towards them to which Willow unleashed a barrage of bullets.{/i}" 
             
@@ -475,14 +469,18 @@ label start:
                         ysize 380
                     b "Chrys, you’re going to die at that rate you know."
 
-                    hide whappy2 with dissolve
-
                     show cangry with dissolve:
                         xpos 50
                         ypos 410
                         xsize 380
                         ysize 380
                     a "Well, it’s you who's going to die if you keep focusing on me."
+
+                    hide whappy1 with dissolve
+
+                    hide chappy1 with dissolve
+
+                    hide whappy2 with dissolve
 
                     hide cangry with dissolve
 
@@ -528,7 +526,7 @@ label start:
             scene bg ambos
             with fade
 
-            play audio "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+            play audio "audio/resto.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
 
             "{i}Chrystian and Willow walked into the cafe hand-in-hand as Chrystian reported his name and went into their reserve seats, with the waiter already handing them the menu before leaving.{/i}"
 
@@ -539,8 +537,6 @@ label start:
                 ysize 380
             b "Chrys, how did you find this place? It’s so pretty and the ambience is pretty good too."
 
-            hide wsurprised with dissolve
-
             show chappy1 with dissolve:
                 xpos 50
                 ypos 410
@@ -550,8 +546,6 @@ label start:
 
             a "so I took the time to research some of the recommended resto here before choosing one based on what you would like best."
 
-            hide chappy1 with dissolve
-
             show wworried with dissolve:
                 xpos 1490
                 ypos 410
@@ -560,8 +554,6 @@ label start:
             b "Oh… Thank you Chrys, I know you were usually busy with your work."
 
             b "I hope it didn’t disturbed you."
-
-            hide wworried with dissolve
 
             show chappy2 with dissolve:
                 xpos 50
@@ -575,6 +567,12 @@ label start:
             a "I heard that they served pretty good food here."
 
             stop sound fadeout 3.5
+
+            hide wsurprised with dissolve
+
+            hide chappy1 with dissolve
+
+            hide wworried with dissolve
 
             hide chappy2 with dissolve
 
@@ -618,16 +616,12 @@ label start:
                 ysize 380
             a "One year…"
 
-            hide chappy2 with dissolve
-
             show whappy2 with dissolve:
                 xpos 1490
                 ypos 410
                 xsize 380
                 ysize 380
             b "Hmm… one year."
-
-            hide whappy2 with dissolve
 
             show chappy1 with dissolve:
                 xpos 50
@@ -636,16 +630,12 @@ label start:
                 ysize 380
             a "Do you still remember the first time you brought me into a cafe?"
 
-            hide chappy1 with dissolve
-
             show whappy2 with dissolve:
                 xpos 1490
                 ypos 410
                 xsize 380
                 ysize 380
             b "Yeah, you said that you haven’t gone into one since you can order them online anyways."
-
-            hide whappy2 with dissolve
 
             show chappy2 with dissolve:
                 xpos 50
@@ -656,9 +646,6 @@ label start:
 
             a "That was the first time I’ve seen you so stubborn about something."
 
-            hide chappy2 with dissolve
-    
-
             show whappy3 with dissolve:
                 xpos 1490
                 ypos 410
@@ -668,11 +655,17 @@ label start:
             
             b " From the pastry to the coffee, who didn’t pester me to keep coming back there after?"
 
+            hide chappy2 with dissolve
+
+            hide whappy2 with dissolve
+
+            hide chappy1 with dissolve
+
             hide whappy3 with dissolve
 
             "{i}The afternoon sun began to set as their order arrived one by one, the soft glow of light illuminated their faces as they spent the rest of the time talking and teasing each other as they mimicked a critic, rating the food one by one.{/i}"
             
-            stop audio fadeout 1.0
+            stop audio
 
         "Engagement Ring":
 
@@ -726,6 +719,11 @@ label start:
 
                     "{i}As they were talking, their other friends continued to strung the lights around the patio, with some arranging the candles and flowers on the tables.{/i}"
 
+                    show extra with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
                     d "Chrys, it’s perfect. And why are you even thinking about negative things like that?"
 
                     d "Right now, you should be composing yourself as you’re about to pull off the most romantic proposal of all time."
@@ -733,6 +731,8 @@ label start:
                     e "Yeah, you’ve got this Chrys! Now, go and get your man."
 
                     f "Everyone, get into hiding! Willow is already nearby!"
+
+                    hide extra with dissolve
 
                     "{i}Chrystian was grateful and it helped ease some of the nervousness he felt earlier. He slowly closed his eyes and took a deep breath before heading out to meet Willow.{/i}"
 
@@ -745,9 +745,11 @@ label start:
                     scene bg living room marriage
                     with fade
 
-                    play sound "audio/people_talking.mp3" volume 0.3 fadein 0.2 loop
+                    play sound "audio/people_talking.mp3" volume 0.2 fadein 0.2 loop
 
                     "{i}At a certain house in BL Pineville in Baguio, the air was filled with a mixture of excitement and nervous energy as Chrystian, surrounded by a few of his and Willow’s family, decorated the living room for a surprise proposal.{/i}"
+
+                    hide extra with dissolve
 
                     g "Chrystian, darling, don’t you think something is missing? Should we add more candles? or flowers perhaps?"
 
@@ -1193,11 +1195,9 @@ label start:
 
             stop sound
 
+            scene bg black
             with dissolve
-            show text "{i}Loading...{/i}":
-                xpos 1700
-                ypos 900
-            with Pause(3)
+            with Pause (3)
 
             scene bg messy room2
             with fade
@@ -1262,7 +1262,7 @@ label start:
             scene bg restaurant theme park
             with fade
 
-            play audio "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+            play audio "audio/resto.mp3" volume 0.3 noloop
 
             "{i}Chrystian and Willow sat across from each other as they enjoyed their meal while chatting excitedly.{/i}"
 
@@ -1373,8 +1373,6 @@ label start:
                 ysize 380
             b "Chrys, calm down. What messages are you even talking about- oh."
 
-            stop audio
-
             show csad with dissolve:
                 xpos 50
                 ypos 410
@@ -1438,6 +1436,8 @@ label start:
 
             hide wsad with dissolve
 
+            stop audio
+
             scene bg black
             with fade
             with Pause(2)
@@ -1445,7 +1445,7 @@ label start:
             scene bg car exterior
             with fade
 
-            play sound "audio/car_driving.mp3" volume 0.3 fadein 0.2 loop
+            play sound "audio/car_driving.mp3" volume 0.3 fadein 1 loop
 
             "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship…{/i}"
 
@@ -1949,20 +1949,28 @@ label start:
     with Pause(10)
     with dissolve
 
-    play music "audio/chapter_3.mp3" volume 0.3 fadeout 0.2 noloop
+    play music "audio/string_quartet.mp3" volume 0.1 loop
     show chapter3
     with dissolve
-    with Pause(2)
-    stop music fadeout 3
-    pause 3
+    with Pause(4)
 
     scene bg black with dissolve
+
+    play sound "audio/car_crash.mp3" volume 0.3  noloop
     
     "{i}Willow’s headaches, as if millions of needles prick every corner.{/i}"
 
+    stop sound fadeout 4
+    pause 1
+
+    play sound "audio/ears_ringing.mp3" volume 0.3  noloop
+    
     scene bg car upside down with dissolve
 
     "{i}He opens his eyes, revealing that the world that he knew was upside down. His head pounds every time that he moves around, his blood trickling to the roof of the car.{/i}"
+
+    stop sound fadeout 4
+    pause 1
 
     "{i}Willow looks to his left, his love of his life unconscious.{/i}"
 
@@ -2002,9 +2010,11 @@ label start:
 
     "{i}Willow pulls out his phone, screen cracked but it still turned on.{/i}"
 
-    "{i}*3 dial tone sounds*{/i}"
+    play sound "audio/phone_dial.mp3" volume 0.1 noloop
 
     "{i}Willow, with much as his strength took him, said the details, he caught his breath every word that he spoke, as if every word was his lifeline.{/i}"
+
+    stop sound fadeout 3
 
     scene bg car wreck with dissolve
 
@@ -2026,7 +2036,7 @@ label start:
 
     "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
     
-    "{i}*explosion*{/i}"
+    play sound "audio/big_explosion.mp3" volume 0.1 noloop
 
     scene bg black
     with fade
@@ -2041,11 +2051,9 @@ label start:
     scene bg wroom
     with fade
     
-    "{i}*alarm clock rings*{/i}"
+    play sound "audio/alarm_sound.mp3" volume 0.3 noloop
 
     "{i}The sun hanged from the sky, the birds were chirping, the slight bzzzzt of the electric fan, and the loudness of the alarm clock echoes through.{/i}"
-
-    "{i}*alarm clock rings*{/i}"
 
     show wmorning with dissolve:
         xpos 50
@@ -2057,6 +2065,8 @@ label start:
     hide wconscious with dissolve
 
     "{i}Willow wakes up, still feeling groggy from his slumber. He looked at his alarm clock.{/i}"
+
+    stop sound fadeout 3
 
     show wmorning with dissolve:
         xpos 50
@@ -2075,9 +2085,11 @@ label start:
 
     "{i}Willow rushes out of his bed, takes a bath, got dressed and as he prepare to set out, a growl could be heard.{/i}"
 
-    "{i}*stomach growl*{/i}"
+    play sound "audio/stomach_growling.mp3" volume 0.3 noloop
 
     "{i}His hunger looms over him, trying to claw its way out.{/i}"
+
+    stop sound
 
     menu:
         "Take breakfast":
@@ -2103,6 +2115,8 @@ label start:
 
             menu loop:
                 "Enter the classroom":
+
+                    play sound "audio/door_open.mp3" volume 0.3 noloop
 
                     "{i}The door opens, the class shifts their attention to the sweaty Willow huffing and puffing{/i}."
 
@@ -2213,7 +2227,7 @@ label start:
 
                             "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
 
-                            "{i}*explosion*{/i}"
+                            play sound "audio/big_explosion.mp3" volume 0.1 noloop
 
                             scene bg explosion eye reflection
                             with dissolve
@@ -2277,9 +2291,14 @@ label start:
 
             "{i}Willow’s hunger can wait, “I can’t be late, this is my first day of school!”{/i}"
 
+            play sound "audio/stomach_growling.mp3" volume 0.3 noloop
+
             "{i}He left, a knot forming in his stomach.{/i}"
 
             "{i}Upon arriving, he rushed to his classroom. He bursted into the room, warranting weird looks from his classmates inside.{/i}"
+
+            scene bg classroom
+            with dissolve
 
             "{i}6 vacant chairs were available, two adjacent seats on the left, two in the middle aisle, and two on the right side.{/i}"
 
@@ -2380,7 +2399,7 @@ label start:
 
                         "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
 
-                        "{i}*explosion*{/i}"
+                        play sound "audio/big_explosion.mp3" volume 0.1 noloop
 
                         scene bg explosion eye reflection
                         with dissolve
@@ -2449,7 +2468,7 @@ label start:
 
                         "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
 
-                        "{i}*explosion*{/i}"
+                        play sound "audio/big_explosion.mp3" volume 0.1 noloop
 
                         scene bg explosion eye reflection
                         with dissolve
@@ -2465,6 +2484,14 @@ label start:
                         scene bg black
                         with dissolve
                         with Pause(1)
+
+    stop music
+
+    scene bg black
+    with dissolve
+    with Pause(3)
+    
+    $ renpy.movie_cutscene("images/ending.webm")
 
     show text "{i}Loading...{/i}":
         xpos 1700
