@@ -52,22 +52,25 @@ label start:
     with Pause(10)
     with dissolve
 
-    play music "audio/chapter_1.mp3" volume 0.3 fadeout 0.2 noloop
+    play music "audio/chapter_1.mp3" volume 0.3 noloop
     show chapter1
     with dissolve
-    with Pause(4)
-    stop music
+    with Pause(2)
+    stop music fadeout 5
+    pause 3.0
+
+    play music "audio/moonlight_sonata.mp3" volume 0.2 fadeout 0.2 loop
 
     scene bg messy room
     with fade
     
     play sound "audio/early_morning_urban.mp3" volume 0.3 loop
 
-    play music "audio/alarm_clock.mp3" volume 0.1 fadein 0.5 fadeout 0.3 noloop
+    play audio "audio/alarm_clock.mp3" volume 0.1 fadein 0.5 fadeout 0.3 noloop
 
     "{i}CHRYSTIAN, 21, a young man who is sleeping inside a messy room.{/i}"
 
-    stop music
+    stop audio
 
     "{i}As he suddenly woke up due to the sun’s ray hitting his face,{/i}"
 
@@ -525,7 +528,7 @@ label start:
             scene bg ambos
             with fade
 
-            play music "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+            play audio "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
 
             "{i}Chrystian and Willow walked into the cafe hand-in-hand as Chrystian reported his name and went into their reserve seats, with the waiter already handing them the menu before leaving.{/i}"
 
@@ -669,7 +672,7 @@ label start:
 
             "{i}The afternoon sun began to set as their order arrived one by one, the soft glow of light illuminated their faces as they spent the rest of the time talking and teasing each other as they mimicked a critic, rating the food one by one.{/i}"
             
-            stop music fadeout 1.0
+            stop audio fadeout 1.0
 
         "Engagement Ring":
 
@@ -842,17 +845,23 @@ label start:
     scene black with dissolve
     with Pause(1)
 
+    stop music fadeout 2
+    pause 2
+
     show text "{i}Loading...{/i}":
         xpos 1700
         ypos 900
     with Pause(10)
     with dissolve
 
-    play music "audio/chapter_1.mp3" volume 0.3 fadeout 0.2 noloop
+    play music "audio/chapter_2.mp3" volume 0.3 noloop
     show chapter2
     with dissolve
-    with Pause(3)
-    stop music
+    with Pause(2)
+    stop music fadeout 3
+    pause 3.0
+
+    play music "audio/liszt_piano.mp3" volume 0.2 noloop
 
     scene bg messy room2
     with fade
@@ -915,7 +924,7 @@ label start:
             scene bg theme park
             with fade
 
-            play sound "audio/lisberg_park.mp3" volume 0.3 loop fadeout 0.2
+            play sound "audio/liseberg_park.mp3" volume 0.2 loop
 
             "{i}Chrystian and Willow stood in line as they slowly approached the entrance and had their tickets checked. It didn’t take long before they got in as they slowly made their way to the rides.{/i}"
 
@@ -959,7 +968,9 @@ label start:
 
             "{i}Chrystian tried his best to keep his temper in check… but it wasn’t that successful since Willow seems more interested in whoever he is texting.{/i}" 
 
-            stop sound
+            stop sound fadeout 3
+
+            pause 1
 
             show cneutral with dissolve:
                 xpos 50
@@ -1017,7 +1028,7 @@ label start:
             hide wneutral with dissolve
             hide wsad with dissolve
 
-            play music "audio/roller_coaster.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+            play audio "audio/roller_coaster.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
 
             "{i}Chrystian looked at Willow for a little longer as he tried to calm himself down.{/i}"
 
@@ -1052,7 +1063,7 @@ label start:
 
             "{i}Looking at Chrystian who finally calmed down, a smile appeared on Willow’s face as he started teasing him again while they walked hand-in-hand to the queue on the Roller Coaster.{/i}"
 
-            stop music
+            stop audio
 
             scene bg black
             with fade
@@ -1061,10 +1072,13 @@ label start:
             scene bg car exterior
             with fade
 
+            play sound "audio/car_driving.mp3" volume 0.3 fadein 0.2 loop
+
             "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship…{/i}"
 
             "{i}Willow kept thinking before he slowly closed his eyes as he finally made his decision.{/i}"
 
+            stop sound
 
             show wsad with dissolve:
                 xpos 1490
@@ -1173,7 +1187,8 @@ label start:
 
             hide csurprised with dissolve
 
-            play sound "audio/car_crash.mp3" volume 0.3 fadein 0.2 noloop
+            play sound "audio/car_crash.mp3" volume 0.3  noloop
+            
             "{i}The truck crashes into their car, sending it spinning out of control… and then the world goes black.{/i}"
 
             stop sound
@@ -1230,6 +1245,8 @@ label start:
                 ysize 380
             a "Why is this still here?"
 
+            hide csad with dissolve
+
             "{i}Chrystian looked at the restaurant receipt with hatred. If only that person hadn’t chatted with Willow that day… then maybe everything wouldn’t have spiralled out of control.{/i}"
 
             scene bg black
@@ -1245,7 +1262,7 @@ label start:
             scene bg restaurant theme park
             with fade
 
-            play music "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+            play audio "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
 
             "{i}Chrystian and Willow sat across from each other as they enjoyed their meal while chatting excitedly.{/i}"
 
@@ -1356,7 +1373,7 @@ label start:
                 ysize 380
             b "Chrys, calm down. What messages are you even talking about- oh."
 
-            stop music
+            stop audio
 
             show csad with dissolve:
                 xpos 50
@@ -1428,9 +1445,13 @@ label start:
             scene bg car exterior
             with fade
 
+            play sound "audio/car_driving.mp3" volume 0.3 fadein 0.2 loop
+
             "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship…{/i}"
 
             "{i}Willow kept thinking before he slowly closed his eyes as he finally made his decision.{/i}"
+
+            stop sound
 
             show wsad with dissolve:
                 xpos 1490
@@ -1539,6 +1560,8 @@ label start:
 
             hide csurprised with dissolve
 
+            play sound "audio/car_crash.mp3" volume 0.3  noloop
+
             "{i}The truck crashes into their car, sending it spinning out of control… and then the world goes black.{/i}"
 
             scene bg black
@@ -1596,6 +1619,8 @@ label start:
                 xsize 380
                 ysize 380
             a "Why is this still here?"
+
+            hide csad with dissolve
 
             "{i}Chrystian looked at the parking ticket with hatred. If only he controlled his temper instead of angering Willow further… then maybe ‘that’ wouldn’t happen.{/i}"
 
@@ -1743,7 +1768,13 @@ label start:
             scene bg car exterior
             with fade
 
-            "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship… Willow kept thinking before he slowly closed his eyes as he finally made his decision.{/i}"
+            play sound "audio/car_driving.mp3" volume 0.3 loop
+
+            "{i}Willow kept looking at Chrystian from his side whose face remained emotionless as he focused on driving. Looking back to their relationship…{/i}"
+
+            "{i}Willow kept thinking before he slowly closed his eyes as he finally made his decision.{/i}"
+
+            stop sound
 
             show wsad with dissolve:
                 xpos 1490
@@ -1852,6 +1883,8 @@ label start:
 
             hide csurprised with dissolve
 
+            play sound "audio/car_crash.mp3" volume 0.3  noloop
+
             "{i}The truck crashes into their car, sending it spinning out of control… and then the world goes black.{/i}"
 
             scene bg black
@@ -1884,6 +1917,8 @@ label start:
 
             "{i}He throws his hands up in frustration, his face contorted with pain as tears slowly fall from his eyes.{/i}"
 
+            stop sound
+
             a "And you want to… throw all of that away. I hate you… I hate you."
 
             play sound "audio/soft_crying.mp3" volume 0.3 noloop fadeout 0.2
@@ -1902,6 +1937,9 @@ label start:
 
             stop sound 
 
+    stop music fadeout 3
+    pause 2
+
     scene bg black with dissolve
     with Pause(1)
 
@@ -1911,11 +1949,12 @@ label start:
     with Pause(10)
     with dissolve
 
-    play music "audio/chapter_1.mp3" volume 0.3 fadeout 0.2 noloop
+    play music "audio/chapter_3.mp3" volume 0.3 fadeout 0.2 noloop
     show chapter3
     with dissolve
-    with Pause(3)
-    stop music
+    with Pause(2)
+    stop music fadeout 3
+    pause 3
 
     scene bg black with dissolve
     
