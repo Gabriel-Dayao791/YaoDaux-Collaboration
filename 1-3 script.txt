@@ -2487,12 +2487,6 @@ label start:
 
     stop music
 
-    scene bg black
-    with dissolve
-    with Pause(3)
-    
-    $ renpy.movie_cutscene("images/ending.webm")
-
     show text "{i}Loading...{/i}":
         xpos 1700
         ypos 900
