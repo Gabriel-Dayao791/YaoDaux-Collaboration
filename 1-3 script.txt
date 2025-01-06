@@ -55,7 +55,7 @@ label start:
     play music "audio/chapter_1.mp3" volume 0.3 fadeout 0.2 noloop
     show chapter1
     with dissolve
-    with Pause(3)
+    with Pause(4)
     stop music
 
     scene bg messy room
@@ -198,7 +198,7 @@ label start:
             scene bg arcade
             with fade
 
-            play sound "audio/ambiance.mp3" volume 0.1 fadein 0.2 fadeout 0.5 noloop
+            play sound "audio/ambience.mp3" volume 0.3 fadein 0.2 loop
 
             "{i}Chrystian and Willow were wandering around the mall when they saw an arcade up ahead.{/i}"
 
@@ -232,6 +232,8 @@ label start:
             b "Anyways, what do you think we should try?"
 
             hide whappy1 with dissolve
+
+            stop sound fadeout 1.0
 
             menu:
                 "Claw Machine":
@@ -523,7 +525,7 @@ label start:
             scene bg ambos
             with fade
 
-            play music "audio/restaurant_ambiance.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+            play music "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
 
             "{i}Chrystian and Willow walked into the cafe hand-in-hand as Chrystian reported his name and went into their reserve seats, with the waiter already handing them the menu before leaving.{/i}"
 
@@ -789,7 +791,7 @@ label start:
                         ysize 380
                     a "This is a disaster…"
 
-                    stop sound
+                    stop sound fadeout 1.0
 
                     show cworried with dissolve:
                         xpos 50
@@ -846,9 +848,11 @@ label start:
     with Pause(10)
     with dissolve
 
-    scene bg black
-    show text "{i}CHAPTER 2: Anger{/i}" with dissolve
-    with Pause(4)
+    play music "audio/chapter_1.mp3" volume 0.3 fadeout 0.2 noloop
+    show chapter2
+    with dissolve
+    with Pause(3)
+    stop music
 
     scene bg messy room2
     with fade
@@ -868,6 +872,7 @@ label start:
 
     hide csad with dissolve
 
+    play sound "audio/sticks_thrown.mp3" volume 0.3 noloop fadeout 0.2
     "{i}Chrystian throws the teddy bear across the room, the impact against the wall produces a jarring sound that breaks the silence.{/i}"
 
     show csad with dissolve:
@@ -879,9 +884,15 @@ label start:
 
     hide csad with dissolve
 
+    play sound "audio/chair_hits.mp3" volume 0.2 noloop fadeout 0.2
     "{i}Chrystian stood up, pacing around the room as he tried to control the anger building inside him like a storm. In his irritation, he kicked over a chair which toppled over with a resounding sound.{/i}"
 
+    stop sound
+
+    play sound "audio/loud_shattering.mp3" volume 0.2 noloop fadeout 0.2
     "{i}Which gradually turned to him throwing and smashing everything that his eyes could see… but his movements halted when he saw several tattered items on the ground.{/i}"
+
+    stop sound
 
     "{i}It was an item that he remembered vividly… After all, it directly reminded him of ‘that’ day.{/i}"
 
@@ -903,6 +914,8 @@ label start:
 
             scene bg theme park
             with fade
+
+            play sound "audio/lisberg_park.mp3" volume 0.3 loop fadeout 0.2
 
             "{i}Chrystian and Willow stood in line as they slowly approached the entrance and had their tickets checked. It didn’t take long before they got in as they slowly made their way to the rides.{/i}"
 
@@ -944,7 +957,9 @@ label start:
 
             hide wneutral with dissolve
 
-            "{i}Chrystian tried his best to keep his temper in check… but it wasn’t that successful since Willow seems more interested in whoever he is texting.{/i}"
+            "{i}Chrystian tried his best to keep his temper in check… but it wasn’t that successful since Willow seems more interested in whoever he is texting.{/i}" 
+
+            stop sound
 
             show cneutral with dissolve:
                 xpos 50
@@ -1002,6 +1017,8 @@ label start:
             hide wneutral with dissolve
             hide wsad with dissolve
 
+            play music "audio/roller_coaster.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+
             "{i}Chrystian looked at Willow for a little longer as he tried to calm himself down.{/i}"
 
             "{i}Trying to remind himself that there are only limited days when both of them are free so he really treasures the days when the both of them could spend time together.{/i}"
@@ -1034,6 +1051,8 @@ label start:
             hide whappy2 with dissolve
 
             "{i}Looking at Chrystian who finally calmed down, a smile appeared on Willow’s face as he started teasing him again while they walked hand-in-hand to the queue on the Roller Coaster.{/i}"
+
+            stop music
 
             scene bg black
             with fade
@@ -1181,9 +1200,13 @@ label start:
 
             a "We were supposed to grow old together, go to the places that we wanted to visit, and create a family."
 
+            play sound "audio/man_screaming.mp3" volume 0.3 noloop fadeout 0.2
+
             "{i}He throws his hands up in frustration, his face contorted with pain as tears slowly fall from his eyes.{/i}"
 
             a "And you want to… throw all of that away. I hate you… I hate you."
+
+            play sound "audio/soft_crying.mp3" volume 0.3 noloop fadeout 0.2
 
             "{i}Chrystian choked as he collapsed into the fall, his head in his hands as he cried.{/i}"
 
@@ -1191,9 +1214,13 @@ label start:
 
             hide csad with dissolve
 
+            play sound "audio/pickup_putdown.mp3" volume 0.3 noloop fadeout 0.2
+
             "{i}Chrystian sat there for a long time as he breathed raggedly. The anger that he felt, although it was still present, has somehow diminished.{/i}"
 
             "{i}It didn’t take long for him to calm himself down as he stood up and started to clean the messes that he made.{/i}"
+
+            stop sound
 
         "Restaurant Receipt":
             show csad with dissolve:
@@ -1217,6 +1244,8 @@ label start:
 
             scene bg restaurant theme park
             with fade
+
+            play music "audio/restaurant_ambience.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
 
             "{i}Chrystian and Willow sat across from each other as they enjoyed their meal while chatting excitedly.{/i}"
 
@@ -1278,7 +1307,11 @@ label start:
 
             hide cneutral with dissolve
 
+            play sound "audio/phone_bleep.mp3" volume 0.3 fadein 0.2 fadeout 0.5 loop
+
             "{i}After Chrystian convinces himself, he picks up Willow’s phone and unlocks it. He then went to the messages and saw a message from a guy he didn’t recognize.{/i}"
+
+            stop sound
 
             show cworried with dissolve:
                 xpos 50
@@ -1322,6 +1355,8 @@ label start:
                 xsize 380
                 ysize 380
             b "Chrys, calm down. What messages are you even talking about- oh."
+
+            stop music
 
             show csad with dissolve:
                 xpos 50
@@ -1532,9 +1567,13 @@ label start:
 
             a "We were supposed to grow old together, go to the places that we wanted to visit, and create a family."
 
+            play sound "audio/man_screaming.mp3" volume 0.3 noloop fadeout 0.2
+
             "{i}He throws his hands up in frustration, his face contorted with pain as tears slowly fall from his eyes.{/i}"
 
             a "And you want to… throw all of that away. I hate you… I hate you."
+
+            play sound "audio/soft_crying.mp3" volume 0.3 noloop fadeout 0.2
 
             "{i}Chrystian choked as he collapsed into the fall, his head in his hands as he cried.{/i}"
 
@@ -1542,9 +1581,13 @@ label start:
 
             hide csad with dissolve
 
+            play sound "audio/pickup_putdown.mp3" volume 0.3 noloop fadeout 0.2
+
             "{i}Chrystian sat there for a long time as he breathed raggedly. The anger that he felt, although it was still present, has somehow diminished.{/i}"
 
             "{i}It didn’t take long for him to calm himself down as he stood up and started to clean the messes that he made.{/i}"
+
+            stop sound
 
         "Parking Ticket":
             show csad with dissolve:
@@ -1575,12 +1618,16 @@ label start:
 
             "{i}As soon as they entered the car, Chrystian was about to drive when Willow suddenly asked something.{/i}"
 
+            play sound "audio/car_door.mp3" volume 0.3 noloop fadeout 0.2
+
             show wneutral with dissolve:
                 xpos 1490
                 ypos 410
                 xsize 380
                 ysize 380
             b "Wait. Where’s the parking ticket? Knowing you, you probably misplaced it again."
+
+            stop sound
 
             show chappy1 with dissolve:
                 xpos 50
@@ -1595,6 +1642,8 @@ label start:
                 xsize 380
                 ysize 380
             a "oh sh*t, where the hell is it?"
+
+            play sound "audio/find_box.mp3" volume 0.3 noloop fadeout 0.2
 
             show wangry with dissolve:
                 xpos 1490
@@ -1618,6 +1667,8 @@ label start:
             hide cneutral with dissolve
 
             "{i}Hearing the blame in Chrystian’s tone, Willow looked at him shockingly as Chrystian never raised his voice at him, even when he was feeling frustrated.{/i}"
+
+            stop sound
 
             show wneutral with dissolve:
                 xpos 1490
@@ -1829,9 +1880,13 @@ label start:
 
             a "We were supposed to grow old together, go to the places that we wanted to visit, and create a family."
 
+            play sound "audio/man_screaming.mp3" volume 0.3 noloop fadeout 0.2
+
             "{i}He throws his hands up in frustration, his face contorted with pain as tears slowly fall from his eyes.{/i}"
 
             a "And you want to… throw all of that away. I hate you… I hate you."
+
+            play sound "audio/soft_crying.mp3" volume 0.3 noloop fadeout 0.2
 
             "{i}Chrystian choked as he collapsed into the fall, his head in his hands as he cried.{/i}"
 
@@ -1839,9 +1894,13 @@ label start:
 
             hide csad with dissolve
 
+            play sound "audio/pickup_putdown.mp3" volume 0.3 noloop fadeout 0.2
+
             "{i}Chrystian sat there for a long time as he breathed raggedly. The anger that he felt, although it was still present, has somehow diminished.{/i}"
 
             "{i}It didn’t take long for him to calm himself down as he stood up and started to clean the messes that he made.{/i}"
+
+            stop sound 
 
     scene bg black with dissolve
     with Pause(1)
@@ -1852,9 +1911,11 @@ label start:
     with Pause(10)
     with dissolve
 
-    scene bg black
-    show text "{i}CHAPTER 3: Bargaining{/i}" with dissolve
-    with Pause(4)
+    play music "audio/chapter_1.mp3" volume 0.3 fadeout 0.2 noloop
+    show chapter3
+    with dissolve
+    with Pause(3)
+    stop music
 
     scene bg black with dissolve
     
