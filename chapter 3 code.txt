@@ -1,0 +1,535 @@
+play music "audio/string_quartet.mp3" volume 0.1 loop
+    show chapter3
+    with dissolve
+    with Pause(4)
+
+    scene bg black with dissolve
+
+    play sound "audio/car_crash.mp3" volume 0.3  noloop
+    
+    "{i}Willow’s headaches, as if millions of needles prick every corner.{/i}"
+
+    stop sound fadeout 4
+    pause 1
+
+    play sound "audio/ears_ringing.mp3" volume 0.3  noloop
+    
+    scene bg car upside down with dissolve
+
+    "{i}He opens his eyes, revealing that the world that he knew was upside down. His head pounds every time that he moves around, his blood trickling to the roof of the car.{/i}"
+
+    stop sound fadeout 4
+    pause 1
+
+    "{i}Willow looks to his left, his love of his life unconscious.{/i}"
+
+    show wconscious with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Chrystian………"
+
+    hide wconscious with dissolve
+
+    "{i}Willow tries to wake up Christian but he remains unconscious.{/i}"
+
+    show wconscious with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Chrystian………"
+
+    hide wconscious with dissolve
+
+    "{i}He reached for the bloody body that lay beside him, nudging him as he physically could.{/i}"
+
+    "{i}Chrystian doesn’t wake up.{/i}"
+
+    "{i}Desperate, he unbuckles his seat, barely doing the same for Chrystian.{/i}"
+
+    "{i}Mustering his strength, Willow goes out at the small opening that his door had.{/i}"
+
+    scene bg car wreck with dissolve
+
+    "{i}Crawling to the other side of the car, he pulls Chrystian out, laying him away from the car crash.{/i}"
+
+    scene bg wcall with dissolve
+
+    "{i}Willow pulls out his phone, screen cracked but it still turned on.{/i}"
+
+    play sound "audio/phone_dial.mp3" volume 0.1 noloop
+
+    "{i}Willow, with much as his strength took him, said the details, he caught his breath every word that he spoke, as if every word was his lifeline.{/i}"
+
+    stop sound fadeout 3
+
+    scene bg car wreck with dissolve
+
+    "{i}With the assurance of an ambulance coming, he looks at Chrystian’s bloody torso, his head bleeding. He noticed that something was missing. The luster that he was too accustomed to, Chrystian’s ring was gone.{/i}"
+
+    scene bg car smoke with dissolve
+
+    "{i}Willow crawls back to the car, not noticing the smoke emitting. He scrambles around, trying to find the ring.{/i}"
+
+    scene bg car upside down w ring with dissolve
+
+    "{i}Alas, he finds it at the back of the car. The ring that embodied their lifelong bond. The ring that linked them together.{/i}"
+
+    scene bg car smoke with dissolve
+
+    "{i}As he crawls back, in the distance Chrystian finally regains consciousness.{/i}"
+
+    scene bg ceyereflection with dissolve
+
+    "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+    
+    play sound "audio/big_explosion.mp3" volume 0.1 noloop
+
+    scene bg black
+    with fade
+    with Pause(1)
+
+    show text "{i}Loading...{/i}":
+        xpos 1700
+        ypos 900
+    with Pause(5)
+    with dissolve
+
+    scene bg wroom
+    with fade
+    
+    play sound "audio/alarm_sound.mp3" volume 0.3 noloop
+
+    "{i}The sun hanged from the sky, the birds were chirping, the slight bzzzzt of the electric fan, and the loudness of the alarm clock echoes through.{/i}"
+
+    show wmorning with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Willow: Ah… What time is it already?"
+
+    hide wconscious with dissolve
+
+    "{i}Willow wakes up, still feeling groggy from his slumber. He looked at his alarm clock.{/i}"
+
+    stop sound fadeout 3
+
+    show wmorning with dissolve:
+        xpos 50
+        ypos 410
+        xsize 380
+        ysize 380
+    b "Oh fudge!!! I’M ALREADY LATE!!!!"
+
+    hide wmorning with dissolve
+
+    scene bg black with dissolve
+    with Pause(1)
+
+    scene bg wliving room
+    with fade
+
+    "{i}Willow rushes out of his bed, takes a bath, got dressed and as he prepare to set out, a growl could be heard.{/i}"
+
+    play sound "audio/stomach_growling.mp3" volume 0.3 noloop
+
+    "{i}His hunger looms over him, trying to claw its way out.{/i}"
+
+    stop sound
+
+    menu:
+        "Take breakfast":
+            "{i}He grabs a loaf of bread, making himself toasted buttered bread.{/i}"
+
+            scene bg black with fade
+            with Pause(2)
+        
+            scene bg outside classroom with fade
+
+            "{i}Willow arrived at the school, sweat dripping. He stood at the door of his classroom.{/i}"
+
+            show wmate with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Maybe I’ll just skip this first class out…"
+
+            hide wmate with dissolve
+            
+            label classroom_choice:
+
+            menu loop:
+                "Enter the classroom":
+
+                    play sound "audio/door_open.mp3" volume 0.3 noloop
+
+                    "{i}The door opens, the class shifts their attention to the sweaty Willow huffing and puffing{/i}."
+
+                    scene bg classroom
+                    with fade
+
+                    show extra with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    j "First day of classes and you are already late Mr. Flores. Introduce yourself and take a seat."
+
+                    hide extra with dissolve
+
+                    show wmate with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Yes sir. Hello everyone, I’m Willow Flores, sorry for being late, nice to meet you all."
+
+                    hide wmate with dissolve
+
+                    "{i}Willow scans the room, looking for a seat. He caught a vacant chair near a boy sitting next to a window.{/i}"
+
+                    "{i}He puts his bag down, still catching his breath and sweating.{/i}"
+
+                    show cmate with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    k "Here, take it."
+
+                    hide cmate with dissolve
+
+                    "{i}Willow hearing the stern yet gentle voice looks to his left, the boy that had eyes that he could swim in was offering his handkerchief.{/i}"
+
+                    show cmate with dissolve:
+                        xpos 1490
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    k "Take it, you’re almost drenched in sweat."
+
+                    hide cmate with dissolve
+
+                    label offer_choice:
+
+                    menu:
+                        "Accept it.":
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Ohhh umm... thank you."
+
+                            hide wmate with dissolve
+
+                            "{i}Willow took the handkerchief from the boy seated next to him, wiping the sweat away with shame.{/i}"
+
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Thank you again."
+
+                            hide wmate with dissolve
+
+                            "{i}He holds the handkerchief, reluctant in returning it drenched.{/i}"
+
+                            show cmate with dissolve:
+                                xpos 1490
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            a "No worries, you can keep it. In return for my handkerchief services, treat me to lunch later."
+
+                            "{i}*Willow chuckles*{/i}"
+
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Sure."
+
+                            hide cmate with dissolve
+
+                            hide wmate with dissolve
+
+                            scene bg black with fade
+                            with Pause(2)
+
+                            scene bg car smoke with dissolve
+
+                            "{i}Chrystian regained his consciousness, panic quickly ran through him, the only thing on his mind was Willow.{/i}"
+
+                            "{i}His head tightens as he moves, his limbs numbed, his eyes and ears were the only senses he could trust.{/i}"
+
+                            "{i}He tries to contort his body, barely making any adjustment, but just enough to see Willow crawling out of the car.{/i}"
+
+                            scene bg ceyereflection 
+                            with dissolve
+
+                            "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+
+                            play sound "audio/big_explosion.mp3" volume 0.1 noloop
+
+                            scene bg explosion eye reflection
+                            with dissolve
+
+                            a "I could have saved you Willow. If I was strong enough, I could have woken up first, and I should have died, not you."
+
+                            a "If there is a god up there, please… let me turn back time."
+
+                            "{i}As the fire burns, the ambulance finally arrives.{/i}"
+
+                            "{i}Chrystian thought if they didn’t argue, if he just stayed put, if he just kept his temper checked, Willow could still be alive.{/i}"
+
+                            scene bg black
+                            with dissolve
+                            with Pause(3)
+
+                            with dissolve
+                            show text "{i}Loading...{/i}":
+                                xpos 1700
+                                ypos 900
+                            with Pause(10)
+
+
+                        "Decline it.":
+                            show wmate with dissolve:
+                                xpos 50
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            b "Sorry, but uhh it’s okay."
+
+                            hide wmate with dissolve
+
+                            show cmate with dissolve:
+                                xpos 1490
+                                ypos 410
+                                xsize 380
+                                ysize 380
+                            k "You sure?"
+
+                            hide cmate with dissolve
+
+                            "{i}The handkerchief tempts Willow as he feels the sweat flow down his forehead.{/i}"
+
+                            jump offer_choice
+
+                "Skip the first period":
+                    
+                    show wmate with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                    b "Mmmm… It’s the first day, I shouldn’t miss it."
+
+                    hide wmate with dissolve
+
+                    jump classroom_choice
+
+        "Just leave the house already.":
+
+            "{i}Willow’s hunger can wait, “I can’t be late, this is my first day of school!”{/i}"
+
+            play sound "audio/stomach_growling.mp3" volume 0.3 noloop
+
+            "{i}He left, a knot forming in his stomach.{/i}"
+
+            "{i}Upon arriving, he rushed to his classroom. He bursted into the room, warranting weird looks from his classmates inside.{/i}"
+
+            scene bg classroom
+            with dissolve
+
+            "{i}6 vacant chairs were available, two adjacent seats on the left, two in the middle aisle, and two on the right side.{/i}"
+
+            show wmate with dissolve:
+                xpos 50
+                ypos 410
+                xsize 380
+                ysize 380
+            b "Where should I sit?"
+
+            hide wmate with dissolve
+
+            menu:
+                "Sit on the left side.":
+                    jump consequence
+
+                "Sit in the middle.":
+                    jump consequence
+
+                "Sit on the right side.":
+                    jump consequence
+
+            label consequence:
+                show wmate with dissolve:
+                        xpos 50
+                        ypos 410
+                        xsize 380
+                        ysize 380
+                b "I guess I’ll just have to sit right here."
+
+                hide wmate with dissolve
+
+                "{i}Willow made it into class just at the right time. In a few minutes the other 4 seats were already taken, leaving a vacant seat beside him. Later, a boy with hair parted in the middle arrived, sweating and catching his breath.{/i}"
+
+                "{i}As he sat down beside him, out of pity, Willow offered him…{/i}"
+
+                menu:
+                    "Offer my handkerchief.":
+                        show wmate with dissolve:
+                            xpos 50
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        b "Take this."
+
+                        hide wmate with dissolve
+
+                        "{i}He nudges his handkerchief to the sweaty boy.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Oh, thank you so much, I didn’t get to bring one."
+
+                        hide cmate with dissolve
+
+                        "{i}The boy spoke with some toasted remains on the corner of his lips.{/I}"
+
+                        "{i}He pats his face down, drenching Willow’s handkerchief.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Here, thank you again. How about lunch later? My treat?"
+
+                        hide cmate with dissolve
+
+                        "{i}Chrystian nudges the handkerchief back.{/I}"
+
+                        menu:
+                            "Take it.":
+                                jump consequence2
+
+                            "Tell him he can have it.":
+                                jump consequence2
+
+                        label consequence2:
+
+                            "{i}The two boys happily talk to each other, Willow happy that the boy accepted his kindness, and the boy was just happy for Willow’s thoughtfulness.{/I}"
+
+                        scene bg black with fade
+                        with Pause(2)
+
+                        scene bg car smoke with dissolve
+
+                        "{i}Chrystian regained his consciousness, panic quickly ran through him, the only thing on his mind was Willow.{/i}"
+
+                        "{i}His head tightens as he moves, his limbs numbed, his eyes and ears were the only senses he could trust.{/i}"
+
+                        "{i}He tries to contort his body, barely making any adjustment, but just enough to see Willow crawling out of the car.{/i}"
+
+                        scene bg ceyereflection 
+                        with dissolve
+
+                        "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+
+                        play sound "audio/big_explosion.mp3" volume 0.1 noloop
+
+                        scene bg explosion eye reflection
+                        with dissolve
+
+                        a "I could have saved you Willow. If I was strong enough, I could have woken up first, and I should have died, not you."
+
+                        a "If there is a god up there, please… let me turn back time."
+
+                        "{i}As the fire burns, the ambulance finally arrives.{/i}"
+
+                        "{i}Chrystian thought if they didn’t argue, if he just stayed put, if he just kept his temper checked, Willow could still be alive.{/i}"
+
+                        scene bg black
+                        with dissolve
+                        with Pause(1)
+
+                    "Give him my tissues.":
+                        show wmate with dissolve:
+                            xpos 50
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        b "Take this."
+
+                        hide wmate with dissolve
+
+                        "{i}He nudges his handkerchief to the sweaty boy.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Oh, thank you so much, I didn’t get to bring one."
+
+                        hide cmate with dissolve
+
+                        "{i}The boy spoke with some toasted remains on the corner of his lips.{/I}"
+
+                        "{i}He pats his face down, drenching Willow’s handkerchief.{/I}"
+
+                        show cmate with dissolve:
+                            xpos 1490
+                            ypos 410
+                            xsize 380
+                            ysize 380
+                        k "Here, thank you again. How about lunch later? My treat?"
+
+                        hide cmate with dissolve
+
+                        "{i}The two boys happily talk to each other, Willow happy that the boy accepted his kindness, and the boy was just happy for Willow’s thoughtfulness.{/I}"
+
+                        scene bg black with fade
+                        with Pause(2)
+
+                        scene bg car smoke with dissolve
+
+                        "{i}Chrystian regained his consciousness, panic quickly ran through him, the only thing on his mind was Willow.{/i}"
+
+                        "{i}His head tightens as he moves, his limbs numbed, his eyes and ears were the only senses he could trust.{/i}"
+
+                        "{i}He tries to contort his body, barely making any adjustment, but just enough to see Willow crawling out of the car.{/i}"
+
+                        scene bg ceyereflection 
+                        with dissolve
+
+                        "{i}Their eyes locked, and in that moment a spark could have been felt between the two lovers.{/i}"
+
+                        play sound "audio/big_explosion.mp3" volume 0.1 noloop
+
+                        scene bg explosion eye reflection
+                        with dissolve
+
+                        a "I could have saved you Willow. If I was strong enough, I could have woken up first, and I should have died, not you."
+
+                        a "If there is a god up there, please… let me turn back time."
+
+                        "{i}As the fire burns, the ambulance finally arrives.{/i}"
+
+                        "{i}Chrystian thought if they didn’t argue, if he just stayed put, if he just kept his temper checked, Willow could still be alive.{/i}"
+
+                        scene bg black
+                        with dissolve
+                        with Pause(1)
